@@ -1,233 +1,101 @@
-// ===== TRANSLATIONS =====
-const translations = {
+const T = {
   en: {
-    navHome: "Home",
-    navAbout: "About",
-    navMenu: "Menu",
-    navContact: "Contact",
-    navCta: "Reserve",
-    heroBadge: "Rooftop Dining in Tbilisi",
-    heroSub: "Fresh & Healthy Food Cooked With Love",
-    heroTagline: "🕉️ 360° Sky Lounge • Bar • Terrace • Club",
-    heroBtn1: "View Menu",
-    heroBtn2: "Discover More",
-    scrollText: "Scroll",
-    feat1Title: "100% Plant-Based",
-    feat1Desc: "Pure vegetarian & vegan",
-    feat2Title: "360° Rooftop",
-    feat2Desc: "Best view of Tbilisi",
-    feat3Title: "Sky Lounge",
-    feat3Desc: "Bar & terrace vibes",
-    feat4Title: "Halal Food",
-    feat4Desc: "Cruelty-free dining",
-    aboutLabel: "Our Story",
-    aboutTitle: "About Livin Café",
-    aboutSubtitle: "Where conscious dining meets breathtaking views",
-    aboutHeading: 'The One & Only <span>Pure Vegetarian & Vegan Hub</span> in Tbilisi',
-    aboutText1: "Perched atop the Livin Hotel at 44 Samreklo Street in the heart of Old Tbilisi's Avlabari district, Livin Café offers the best 360° rooftop terrace view of Tbilisi City and the iconic Holy Trinity Cathedral. We are more than just a restaurant — we are a movement for conscious, healthy, and cruelty-free living.",
-    aboutP1: "NO eggs, NO meat, NO poultry, NO seafood",
-    aboutP2: "100% Halal food — cooked with love",
-    aboutP3: "Fresh, balanced, and cruelty-free meals daily",
-    aboutP4: "Caring for community, animals & our planet",
-    aboutQuote: '"To inspire a conscious and healthy lifestyle through balanced, fresh, and cruelty-free food."',
-    founderRole: "Founder & Director",
-    hlCard1Title: "360° Terrace",
-    hlCard1Desc: "Panoramic views of Old Tbilisi",
-    hlCard2Title: "Vegan Cuisine",
-    hlCard2Desc: "Fresh & healthy, cooked with love",
-    hlCard3Title: "Sky Lounge",
-    hlCard3Desc: "Bar • Club • Chill vibes",
-    menuLabel: "Our Menu",
-    menuTitle: "Taste the Goodness",
-    menuSubtitle: "Explore our carefully curated plant-based dishes",
-    menuSoonTitle: "Menu Coming Soon",
-    menuSoonText: "We're preparing something beautiful. In the meantime, check out our full menu online.",
-    menuBtn: "View Full Menu",
-    tagSalads: "🥗 Salads",
-    tagSoups: "🍜 Soups",
-    tagWraps: "🌯 Wraps",
-    tagPizza: "🍕 Pizza",
-    tagSmoothies: "🥤 Smoothies",
-    tagCocktails: "🍹 Cocktails",
-    tagDesserts: "🍰 Desserts",
-    contactLabel: "Get in Touch",
-    contactTitle: "Visit Us",
-    contactSubtitle: "We'd love to welcome you to our rooftop",
-    contactAddr: "Address",
-    contactAddrVal: "Livin Hotel's Rooftop, 44 Samreklo Street<br>Avlabari, Old Tbilisi, Georgia",
-    contactAddrNote: "80m from Holy Trinity Cathedral",
-    contactHours: "Working Hours",
-    contactHoursVal: "Daily: 12:00 PM — 23:00 PM",
-    contactPhone: "Phone & WhatsApp",
-    contactEmail: "Email",
-    contactDir: "Direction",
-    contactDirVal: "Avlabari Metro Station Area",
-    contactDirNote: "Parking in front of Holy Trinity Cathedral",
-    footerLove: 'With <span class="heart">❤️</span> from Tbilisi &nbsp;•&nbsp; © 2025 Livin Café Tbilisi. All rights reserved.',
+    navHome:"Home",navAbout:"About",navMenu:"Menu",navContact:"Contact",navCta:"Reserve",
+    heroEyebrow:"Fresh & Healthy, Cooked with Love",
+    heroDesc:"The one & only Pure Vegetarian & Vegan Hub with the best 360° rooftop terrace view of Tbilisi City & Holy Trinity Cathedral",
+    heroBtn1:"View Menu",heroBtn2:"Our Story",scrollText:"Scroll",
+    mq1:"Pure Vegetarian & Vegan",mq2:"Rooftop Terrace",mq3:"Halal Food",mq4:"Bar & Club",mq5:"Cruelty-Free",mq6:"Cooked With Love",
+    mq1b:"Pure Vegetarian & Vegan",mq2b:"Rooftop Terrace",mq3b:"Halal Food",mq4b:"Bar & Club",mq5b:"Cruelty-Free",mq6b:"Cooked With Love",
+    aboutTag:"Our Story",aboutTitle:"About Livin Café",aboutSub:"Where conscious dining meets breathtaking views",
+    aboutP:"Perched atop the Livin Hotel at 44 Samreklo Street in the heart of Old Tbilisi's Avlabari district, Livin Café offers the best 360° rooftop terrace view of Tbilisi City and the iconic Holy Trinity Cathedral. We are more than just a restaurant — we are a movement for conscious, healthy, and cruelty-free living.",
+    aboutQuote:'"To inspire a conscious and healthy lifestyle through balanced, fresh, and cruelty-free food."',
+    pr1:"NO eggs, NO meat, NO poultry, NO seafood",pr2:"100% Halal food",pr3:"Fresh & cruelty-free daily",pr4:"Caring for our planet",
+    founderRole:"Founder & Director",
+    s1t:"360° Terrace",s1d:"Panoramic views of Old Tbilisi",s2t:"Vegan Cuisine",s2d:"Fresh & healthy, with love",s3t:"Sky Lounge",s3d:"Bar • Club • Chill vibes",
+    menuTag:"Our Menu",menuTitle:"Taste the Goodness",menuSub:"Explore our carefully curated plant-based dishes",
+    menuSoon:"Menu Coming Soon",menuSoonP:"We're preparing something beautiful. In the meantime, check out our full menu online.",
+    t1:"🥗 Salads",t2:"🍜 Soups",t3:"🌯 Wraps",t4:"🍕 Pizza",t5:"🥤 Smoothies",t6:"🍹 Cocktails",t7:"🍰 Desserts",
+    menuBtn:"View Full Menu",
+    contactTag:"Get in Touch",contactTitle:"Visit Us",contactSub:"We'd love to welcome you to our rooftop",
+    cAddr:"Address",cAddrV:"Livin Hotel's Rooftop, 44 Samreklo Street<br>Avlabari, Old Tbilisi, Georgia",cAddrN:"80m from Holy Trinity Cathedral",
+    cHours:"Working Hours",cHoursV:"Daily: 12:00 PM — 23:00 PM",
+    cPhone:"Phone & WhatsApp",cEmail:"Email",
+    cDir:"Direction",cDirV:"Avlabari Metro Station Area",cDirN:"Parking in front of Holy Trinity Cathedral",
+    footerText:'With <span class="heart">❤️</span> from Tbilisi • © 2025 Livin Café Tbilisi'
   },
   ru: {
-    navHome: "Главная",
-    navAbout: "О нас",
-    navMenu: "Меню",
-    navContact: "Контакты",
-    navCta: "Забронировать",
-    heroBadge: "Ресторан на крыше в Тбилиси",
-    heroSub: "Свежая и здоровая еда, приготовленная с любовью",
-    heroTagline: "🕉️ 360° Скай-лаунж • Бар • Терраса • Клуб",
-    heroBtn1: "Смотреть меню",
-    heroBtn2: "Узнать больше",
-    scrollText: "Листать",
-    feat1Title: "100% Растительное",
-    feat1Desc: "Чистое вегетарианское и веганское",
-    feat2Title: "360° Крыша",
-    feat2Desc: "Лучший вид на Тбилиси",
-    feat3Title: "Скай-лаунж",
-    feat3Desc: "Бар и терраса",
-    feat4Title: "Халяльная еда",
-    feat4Desc: "Без жестокости",
-    aboutLabel: "Наша история",
-    aboutTitle: "О Livin Café",
-    aboutSubtitle: "Где осознанная кухня встречает захватывающие виды",
-    aboutHeading: 'Единственный <span>Чисто Вегетарианский и Веганский Хаб</span> в Тбилиси',
-    aboutText1: "Расположенный на крыше отеля Livin по адресу улица Самрекло 44, в самом сердце старого Тбилиси, район Авлабари, Livin Café предлагает лучший панорамный вид на 360° на город Тбилиси и знаменитый Собор Святой Троицы. Мы — больше, чем просто ресторан — мы движение за осознанный, здоровый образ жизни без жестокости.",
-    aboutP1: "БЕЗ яиц, БЕЗ мяса, БЕЗ птицы, БЕЗ морепродуктов",
-    aboutP2: "100% Халяльная еда — приготовленная с любовью",
-    aboutP3: "Свежие, сбалансированные блюда без жестокости каждый день",
-    aboutP4: "Забота о сообществе, животных и нашей планете",
-    aboutQuote: '"Вдохновлять на осознанный и здоровый образ жизни через сбалансированную, свежую еду без жестокости."',
-    founderRole: "Основатель и Директор",
-    hlCard1Title: "360° Терраса",
-    hlCard1Desc: "Панорамные виды на старый Тбилиси",
-    hlCard2Title: "Веганская кухня",
-    hlCard2Desc: "Свежая и здоровая, с любовью",
-    hlCard3Title: "Скай-лаунж",
-    hlCard3Desc: "Бар • Клуб • Атмосфера",
-    menuLabel: "Наше меню",
-    menuTitle: "Попробуйте вкус добра",
-    menuSubtitle: "Откройте наши тщательно подобранные растительные блюда",
-    menuSoonTitle: "Меню скоро появится",
-    menuSoonText: "Мы готовим что-то прекрасное. А пока ознакомьтесь с нашим полным меню онлайн.",
-    menuBtn: "Полное меню",
-    tagSalads: "🥗 Салаты",
-    tagSoups: "🍜 Супы",
-    tagWraps: "🌯 Роллы",
-    tagPizza: "🍕 Пицца",
-    tagSmoothies: "🥤 Смузи",
-    tagCocktails: "🍹 Коктейли",
-    tagDesserts: "🍰 Десерты",
-    contactLabel: "Связаться с нами",
-    contactTitle: "Посетите нас",
-    contactSubtitle: "Мы будем рады приветствовать вас на нашей крыше",
-    contactAddr: "Адрес",
-    contactAddrVal: "Крыша отеля Livin, ул. Самрекло 44<br>Авлабари, Старый Тбилиси, Грузия",
-    contactAddrNote: "80м от Собора Святой Троицы",
-    contactHours: "Время работы",
-    contactHoursVal: "Ежедневно: 12:00 — 23:00",
-    contactPhone: "Телефон и WhatsApp",
-    contactEmail: "Эл. почта",
-    contactDir: "Как добраться",
-    contactDirVal: "Район метро Авлабари",
-    contactDirNote: "Парковка напротив Собора Святой Троицы",
-    footerLove: 'С <span class="heart">❤️</span> из Тбилиси &nbsp;•&nbsp; © 2025 Livin Café Tbilisi. Все права защищены.',
+    navHome:"Главная",navAbout:"О нас",navMenu:"Меню",navContact:"Контакты",navCta:"Забронировать",
+    heroEyebrow:"Свежая и здоровая еда, с любовью",
+    heroDesc:"Единственный чисто вегетарианский и веганский хаб с лучшим панорамным видом на 360° на Тбилиси и Собор Святой Троицы",
+    heroBtn1:"Смотреть меню",heroBtn2:"Наша история",scrollText:"Листать",
+    mq1:"Вегетарианское и Веганское",mq2:"Терраса на крыше",mq3:"Халяльная еда",mq4:"Бар и Клуб",mq5:"Без жестокости",mq6:"С любовью",
+    mq1b:"Вегетарианское и Веганское",mq2b:"Терраса на крыше",mq3b:"Халяльная еда",mq4b:"Бар и Клуб",mq5b:"Без жестокости",mq6b:"С любовью",
+    aboutTag:"Наша история",aboutTitle:"О Livin Café",aboutSub:"Где осознанная кухня встречает захватывающие виды",
+    aboutP:"Расположенный на крыше отеля Livin по адресу ул. Самрекло 44, в самом сердце старого Тбилиси, район Авлабари, Livin Café предлагает лучший панорамный вид на 360° на город Тбилиси и знаменитый Собор Святой Троицы. Мы — больше, чем просто ресторан — мы движение за осознанный, здоровый образ жизни без жестокости.",
+    aboutQuote:'"Вдохновлять на осознанный и здоровый образ жизни через сбалансированную, свежую еду без жестокости."',
+    pr1:"БЕЗ яиц, БЕЗ мяса, БЕЗ птицы, БЕЗ морепродуктов",pr2:"100% Халяльная еда",pr3:"Свежие блюда без жестокости",pr4:"Забота о нашей планете",
+    founderRole:"Основатель и Директор",
+    s1t:"360° Терраса",s1d:"Панорамные виды на Тбилиси",s2t:"Веганская кухня",s2d:"Свежая и здоровая, с любовью",s3t:"Скай-лаунж",s3d:"Бар • Клуб • Атмосфера",
+    menuTag:"Наше меню",menuTitle:"Попробуйте вкус добра",menuSub:"Откройте наши растительные блюда",
+    menuSoon:"Меню скоро появится",menuSoonP:"Мы готовим что-то прекрасное. А пока — полное меню онлайн.",
+    t1:"🥗 Салаты",t2:"🍜 Супы",t3:"🌯 Роллы",t4:"🍕 Пицца",t5:"🥤 Смузи",t6:"🍹 Коктейли",t7:"🍰 Десерты",
+    menuBtn:"Полное меню",
+    contactTag:"Связаться с нами",contactTitle:"Посетите нас",contactSub:"Мы будем рады приветствовать вас",
+    cAddr:"Адрес",cAddrV:"Крыша отеля Livin, ул. Самрекло 44<br>Авлабари, Старый Тбилиси, Грузия",cAddrN:"80м от Собора Святой Троицы",
+    cHours:"Время работы",cHoursV:"Ежедневно: 12:00 — 23:00",
+    cPhone:"Телефон и WhatsApp",cEmail:"Эл. почта",
+    cDir:"Как добраться",cDirV:"Район метро Авлабари",cDirN:"Парковка напротив Собора Святой Троицы",
+    footerText:'С <span class="heart">❤️</span> из Тбилиси • © 2025 Livin Café Tbilisi'
   }
 };
 
-let currentLang = localStorage.getItem('livin-lang') || 'en';
+let lang = localStorage.getItem('livin-lang') || 'en';
 
-function setLanguage(lang) {
-  currentLang = lang;
-  localStorage.setItem('livin-lang', lang);
-  const t = translations[lang];
-
-  // Update all data-i18n elements
+function setLang(l) {
+  lang = l; localStorage.setItem('livin-lang', l);
   document.querySelectorAll('[data-i18n]').forEach(el => {
-    const key = el.getAttribute('data-i18n');
-    if (t[key]) {
-      if (el.tagName === 'A' || el.tagName === 'BUTTON' || el.tagName === 'SPAN' || el.tagName === 'P' || el.tagName === 'H2' || el.tagName === 'H3' || el.tagName === 'H4' || el.tagName === 'LI') {
-        el.innerHTML = t[key];
-      } else {
-        el.innerHTML = t[key];
-      }
-    }
+    const k = el.getAttribute('data-i18n');
+    if (T[l][k]) el.innerHTML = T[l][k];
   });
-
-  // Update lang toggle buttons
-  document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.lang === lang);
-  });
-
-  document.documentElement.lang = lang;
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === l));
+  document.documentElement.lang = l;
 }
 
-// ===== NAVBAR SCROLL =====
-const navbar = document.getElementById('navbar');
+// Nav scroll
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 60));
+
+// Hamburger
+const ham = document.getElementById('hamburger'), mob = document.getElementById('mobileNav');
+ham.addEventListener('click', () => {
+  ham.classList.toggle('active'); mob.classList.toggle('open');
+  document.body.style.overflow = mob.classList.contains('open') ? 'hidden' : '';
+});
+function closeMobile() { ham.classList.remove('active'); mob.classList.remove('open'); document.body.style.overflow = ''; }
+
+// Smooth scroll
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => { e.preventDefault(); document.querySelector(a.getAttribute('href'))?.scrollIntoView({ behavior: 'smooth' }); });
+});
+
+// Scroll reveal
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('vis'); obs.unobserve(e.target); } });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+// Active nav
+const sects = document.querySelectorAll('section[id]');
 window.addEventListener('scroll', () => {
-  navbar.classList.toggle('scrolled', window.scrollY > 60);
-});
-
-// ===== HAMBURGER MENU =====
-const hamburger = document.getElementById('hamburger');
-const mobileNav = document.getElementById('mobileNav');
-
-hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('active');
-  mobileNav.classList.toggle('open');
-  document.body.style.overflow = mobileNav.classList.contains('open') ? 'hidden' : '';
-});
-
-function closeMobile() {
-  hamburger.classList.remove('active');
-  mobileNav.classList.remove('open');
-  document.body.style.overflow = '';
-}
-
-// ===== SMOOTH SCROLL =====
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault();
-    const target = document.querySelector(this.getAttribute('href'));
-    if (target) {
-      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+  const y = scrollY + 150;
+  sects.forEach(s => {
+    const link = document.querySelector(`.nav-center a[href="#${s.id}"]`);
+    if (link) link.style.color = (y >= s.offsetTop && y < s.offsetTop + s.offsetHeight) ? 'var(--green-glow)' : '';
   });
 });
 
-// ===== SCROLL REVEAL =====
-const revealElements = document.querySelectorAll('.reveal');
-const revealObserver = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-      revealObserver.unobserve(entry.target);
-    }
-  });
-}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
-
-revealElements.forEach(el => revealObserver.observe(el));
-
-// ===== ACTIVE NAV LINK =====
-const sections = document.querySelectorAll('section[id]');
-window.addEventListener('scroll', () => {
-  const scrollPos = window.scrollY + 150;
-  sections.forEach(section => {
-    const top = section.offsetTop;
-    const height = section.offsetHeight;
-    const id = section.getAttribute('id');
-    const link = document.querySelector(`.nav-links a[href="#${id}"]`);
-    if (link) {
-      link.style.color = (scrollPos >= top && scrollPos < top + height) ? 'var(--green-glow)' : '';
-    }
-  });
-});
-
-// ===== LANG SWITCH =====
+// Init lang
 document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
-  });
-  // Mobile lang buttons
-  document.querySelectorAll('.mobile-lang-btn').forEach(btn => {
-    btn.addEventListener('click', () => { setLanguage(btn.dataset.lang); });
-  });
-  setLanguage(currentLang);
+  document.querySelectorAll('.lang-btn').forEach(b => b.addEventListener('click', () => setLang(b.dataset.lang)));
+  setLang(lang);
 });
