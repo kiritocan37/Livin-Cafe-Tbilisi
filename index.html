@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livin Café Tbilisi — Pure Vegetarian & Vegan Rooftop Hub</title>
+  <meta name="description" content="The one & only Pure Vegetarian & Vegan Hub in Tbilisi with the best 360° rooftop terrace view of Tbilisi City & Holy Trinity Cathedral. Fresh & healthy food cooked with love.">
+  <meta name="keywords" content="Livin Cafe, Tbilisi, Vegan, Vegetarian, Rooftop, Sky Lounge, Healthy Food, Georgia">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="nav-logo">
+      <img src="assets/logo.png" alt="Livin Café Logo">
+      <span class="nav-logo-text">LIVIN <span>CAFÉ</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#home" data-i18n="navHome">Home</a></li>
+      <li><a href="#about" data-i18n="navAbout">About</a></li>
+      <li><a href="#menu" data-i18n="navMenu">Menu</a></li>
+      <li><a href="#contact" data-i18n="navContact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="lang-switch">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="ru">RU</button>
+      </div>
+      <a href="https://wa.me/995598234108" target="_blank" class="nav-cta" data-i18n="navCta">Reserve</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#home" onclick="closeMobile()" data-i18n="navHome">Home</a>
+    <a href="#about" onclick="closeMobile()" data-i18n="navAbout">About</a>
+    <a href="#menu" onclick="closeMobile()" data-i18n="navMenu">Menu</a>
+    <a href="#contact" onclick="closeMobile()" data-i18n="navContact">Contact</a>
+    <a href="https://wa.me/995598234108" target="_blank" onclick="closeMobile()" data-i18n="navCta">Reserve a Table</a>
+    <div class="mobile-lang-switch">
+      <button class="mobile-lang-btn lang-btn" data-lang="en">EN</button>
+      <button class="mobile-lang-btn lang-btn" data-lang="ru">RU</button>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="assets/food-display.jpg" alt="Livin Café delicious vegan dishes">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge"><span class="dot"></span> <span data-i18n="heroBadge">Rooftop Dining in Tbilisi</span></div>
+      <h1><span class="accent">Livin</span> <span class="gold">Café</span> <span class="silver">Tbilisi</span></h1>
+      <p class="hero-sub" data-i18n="heroSub">Fresh & Healthy Food Cooked With Love</p>
+      <p class="hero-tagline" data-i18n="heroTagline">🕉️ 360° Sky Lounge • Bar • Terrace • Club</p>
+      <div class="hero-buttons">
+        <a href="https://menu.ps.me/PnsCt-fEtQE" target="_blank" class="btn btn-primary" data-i18n="heroBtn1">View Menu</a>
+        <a href="#about" class="btn btn-outline" data-i18n="heroBtn2">Discover More</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span data-i18n="scrollText">Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- FEATURES BAR -->
+  <div class="features-bar reveal">
+    <div class="feature-item">
+      <span class="feature-icon">🌿</span>
+      <h4 data-i18n="feat1Title">100% Plant-Based</h4>
+      <p data-i18n="feat1Desc">Pure vegetarian & vegan</p>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">🏙️</span>
+      <h4 data-i18n="feat2Title">360° Rooftop</h4>
+      <p data-i18n="feat2Desc">Best view of Tbilisi</p>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">🍸</span>
+      <h4 data-i18n="feat3Title">Sky Lounge</h4>
+      <p data-i18n="feat3Desc">Bar & terrace vibes</p>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">🕉️</span>
+      <h4 data-i18n="feat4Title">Halal Food</h4>
+      <p data-i18n="feat4Desc">Cruelty-free dining</p>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-header reveal">
+      <span class="section-label" data-i18n="aboutLabel">Our Story</span>
+      <h2 class="section-title" data-i18n="aboutTitle">About Livin Café</h2>
+      <p class="section-subtitle" data-i18n="aboutSubtitle">Where conscious dining meets breathtaking views</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-images reveal">
+        <div class="about-img-main">
+          <img src="assets/rooftop-terrace.png" alt="Livin Café Rooftop Terrace">
+        </div>
+        <div class="about-img-float">
+          <img src="assets/vegan-feast.png" alt="Vegan dishes at Livin Café">
+        </div>
+      </div>
+      <div class="about-content reveal">
+        <h3 data-i18n="aboutHeading">The One & Only <span>Pure Vegetarian & Vegan Hub</span> in Tbilisi</h3>
+        <p class="about-text" data-i18n="aboutText1">
+          Perched atop the Livin Hotel at 44 Samreklo Street in the heart of Old Tbilisi's Avlabari district, 
+          Livin Café offers the best 360° rooftop terrace view of Tbilisi City and the iconic Holy Trinity Cathedral. 
+          We are more than just a restaurant — we are a movement for conscious, healthy, and cruelty-free living.
+        </p>
+        <ul class="about-principles">
+          <li><span class="check">✓</span> <span data-i18n="aboutP1">NO eggs, NO meat, NO poultry, NO seafood</span></li>
+          <li><span class="check">✓</span> <span data-i18n="aboutP2">100% Halal food — cooked with love</span></li>
+          <li><span class="check">✓</span> <span data-i18n="aboutP3">Fresh, balanced, and cruelty-free meals daily</span></li>
+          <li><span class="check">✓</span> <span data-i18n="aboutP4">Caring for community, animals & our planet</span></li>
+        </ul>
+        <p class="about-quote" data-i18n="aboutQuote">
+          "To inspire a conscious and healthy lifestyle through balanced, fresh, and cruelty-free food."
+        </p>
+        <div class="about-founder">
+          <div class="about-founder-avatar">R</div>
+          <div class="about-founder-info">
+            <span class="name">Rauf S.</span>
+            <span class="role" data-i18n="founderRole">Founder & Director</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HIGHLIGHTS -->
+  <div class="highlights">
+    <div class="highlight-card reveal">
+      <img src="assets/rooftop-terrace.png" alt="Terrace View">
+      <div class="highlight-card-overlay">
+        <h4 data-i18n="hlCard1Title">360° Terrace</h4>
+        <p data-i18n="hlCard1Desc">Panoramic views of Old Tbilisi</p>
+      </div>
+    </div>
+    <div class="highlight-card reveal">
+      <img src="assets/food-display.jpg" alt="Food Display">
+      <div class="highlight-card-overlay">
+        <h4 data-i18n="hlCard2Title">Vegan Cuisine</h4>
+        <p data-i18n="hlCard2Desc">Fresh & healthy, cooked with love</p>
+      </div>
+    </div>
+    <div class="highlight-card reveal">
+      <img src="assets/sky-lounge.png" alt="Sky Lounge Bar">
+      <div class="highlight-card-overlay">
+        <h4 data-i18n="hlCard3Title">Sky Lounge</h4>
+        <p data-i18n="hlCard3Desc">Bar • Club • Chill vibes</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MENU -->
+  <section id="menu">
+    <div class="section-header reveal">
+      <span class="section-label" data-i18n="menuLabel">Our Menu</span>
+      <h2 class="section-title" data-i18n="menuTitle">Taste the Goodness</h2>
+      <p class="section-subtitle" data-i18n="menuSubtitle">Explore our carefully curated plant-based dishes</p>
+    </div>
+    <div class="menu-coming-soon reveal">
+      <span class="menu-icon">🥦</span>
+      <h3 data-i18n="menuSoonTitle">Menu Coming Soon</h3>
+      <p data-i18n="menuSoonText">We're preparing something beautiful. In the meantime, check out our full menu online.</p>
+      <div class="menu-tags">
+        <span class="menu-tag" data-i18n="tagSalads">🥗 Salads</span>
+        <span class="menu-tag" data-i18n="tagSoups">🍜 Soups</span>
+        <span class="menu-tag" data-i18n="tagWraps">🌯 Wraps</span>
+        <span class="menu-tag" data-i18n="tagPizza">🍕 Pizza</span>
+        <span class="menu-tag" data-i18n="tagSmoothies">🥤 Smoothies</span>
+        <span class="menu-tag" data-i18n="tagCocktails">🍹 Cocktails</span>
+        <span class="menu-tag" data-i18n="tagDesserts">🍰 Desserts</span>
+      </div>
+      <a href="https://menu.ps.me/PnsCt-fEtQE" target="_blank" class="btn btn-primary" data-i18n="menuBtn">View Full Menu</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-header reveal">
+      <span class="section-label" data-i18n="contactLabel">Get in Touch</span>
+      <h2 class="section-title" data-i18n="contactTitle">Visit Us</h2>
+      <p class="section-subtitle" data-i18n="contactSubtitle">We'd love to welcome you to our rooftop</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info-cards reveal">
+        <div class="contact-card">
+          <div class="contact-card-icon">📍</div>
+          <div>
+            <h4 data-i18n="contactAddr">Address</h4>
+            <p data-i18n="contactAddrVal">Livin Hotel's Rooftop, 44 Samreklo Street<br>Avlabari, Old Tbilisi, Georgia</p>
+            <p class="contact-note" data-i18n="contactAddrNote">80m from Holy Trinity Cathedral</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon">🕐</div>
+          <div>
+            <h4 data-i18n="contactHours">Working Hours</h4>
+            <p data-i18n="contactHoursVal">Daily: 12:00 PM — 23:00 PM</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon">📞</div>
+          <div>
+            <h4 data-i18n="contactPhone">Phone & WhatsApp</h4>
+            <p><a href="tel:+995598234108">+995 598 234 108</a></p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon">✉️</div>
+          <div>
+            <h4 data-i18n="contactEmail">Email</h4>
+            <p><a href="mailto:livin.cafe.tbilisi@gmail.com">livin.cafe.tbilisi@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon">🚇</div>
+          <div>
+            <h4 data-i18n="contactDir">Direction</h4>
+            <p data-i18n="contactDirVal">Avlabari Metro Station Area</p>
+            <p class="contact-note" data-i18n="contactDirNote">Parking in front of Holy Trinity Cathedral</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-map reveal">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1489.3!2d44.8063!3d41.6975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f846b%3A0x61d2e96453b055cf!2sHoly%20Trinity%20Cathedral%20of%20Tbilisi!5e0!3m2!1sen!2sge!4v1700000000000!5m2!1sen!2sge" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Livin Café location on Google Maps"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOCIALS -->
+  <div class="socials-bar reveal">
+    <a href="https://www.instagram.com/livin.cafe.tbilisi" target="_blank" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/livincafetbilisi" target="_blank" class="social-link" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://t.me/LivinCafeTbilisi" target="_blank" class="social-link" title="Telegram"><i class="fab fa-telegram-plane"></i></a>
+    <a href="https://www.youtube.com/@LivinCafeTbilisi" target="_blank" class="social-link" title="YouTube"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.tiktok.com/@livin.cafe.tbilisi" target="_blank" class="social-link" title="TikTok"><i class="fab fa-tiktok"></i></a>
+    <a href="https://www.linkedin.com/in/livincafetbilisi" target="_blank" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://x.com/TbilisiLivin108" target="_blank" class="social-link" title="X"><i class="fab fa-x-twitter"></i></a>
+    <a href="https://wa.me/995598234108" target="_blank" class="social-link" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://vk.com/livin.cafe.tbilisi" target="_blank" class="social-link" title="VK"><i class="fab fa-vk"></i></a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-logo">
+      <img src="assets/logo.png" alt="Livin Café">
+      <span>LIVIN CAFÉ TBILISI</span>
+    </div>
+    <div class="footer-delivery">
+      <span>🛵 Wolt</span>
+      <span>⚡ Bolt</span>
+      <span>📦 Glovo</span>
+    </div>
+    <p data-i18n="footerLove">With <span class="heart">❤️</span> from Tbilisi &nbsp;•&nbsp; © 2025 Livin Café Tbilisi. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
