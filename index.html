@@ -1,25 +1,22 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Livin Café Tbilisi — Pure Vegetarian & Vegan Rooftop Hub</title>
-  <meta name="description" content="The one & only Pure Vegetarian & Vegan Hub in Tbilisi with the best 360° rooftop terrace view of Tbilisi City & Holy Trinity Cathedral.">
-  <link rel="icon" href="assets/logo.png" type="image/png">
+  <title>Livin Cafe Tbilisi</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-
-<!-- NAV -->
 <nav class="nav" id="nav">
   <a href="#home" class="nav-logo">
-    <img src="assets/logo.png" alt="Livin Café">
-    <span class="nav-brand">LIVIN <i>CAFÉ</i></span>
+    <img src="assets/logo.png" alt="Livin Cafe">
+    <span class="nav-brand">LIVIN <em>CAFE</em></span>
   </a>
   <ul class="nav-center">
     <li><a href="#home" data-i18n="navHome">Home</a></li>
     <li><a href="#about" data-i18n="navAbout">About</a></li>
+    <li><a href="#gallery" data-i18n="navGallery">Gallery</a></li>
     <li><a href="#menu" data-i18n="navMenu">Menu</a></li>
     <li><a href="#contact" data-i18n="navContact">Contact</a></li>
   </ul>
@@ -36,22 +33,27 @@
 <div class="mobile-nav" id="mobileNav">
   <a href="#home" onclick="closeMobile()" data-i18n="navHome">Home</a>
   <a href="#about" onclick="closeMobile()" data-i18n="navAbout">About</a>
+  <a href="#gallery" onclick="closeMobile()" data-i18n="navGallery">Gallery</a>
   <a href="#menu" onclick="closeMobile()" data-i18n="navMenu">Menu</a>
   <a href="#contact" onclick="closeMobile()" data-i18n="navContact">Contact</a>
   <a href="https://wa.me/995598234108" target="_blank" onclick="closeMobile()" data-i18n="navCta">Reserve</a>
   <div class="mobile-lang"><button class="lang-btn" data-lang="en">EN</button><button class="lang-btn" data-lang="ru">RU</button></div>
 </div>
 
-<!-- HERO -->
+<!-- HERO VIDEO -->
 <section class="hero" id="home">
-  <div class="hero-bg"><img src="assets/food-display.jpg" alt="Livin Café dishes"></div>
+  <div class="hero-video-wrap">
+    <video autoplay muted loop playsinline class="hero-video" poster="assets/photos/cathedral-view.jpg">
+      <source src="assets/video/hero.mp4" type="video/mp4">
+    </video>
+  </div>
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <span class="hero-eyebrow" data-i18n="heroEyebrow">Fresh & Healthy, Cooked with Love</span>
-    <h1><span class="green">Livin</span> <span class="gold">Café</span><br>Tbilisi</h1>
-    <p class="hero-desc" data-i18n="heroDesc">The one & only Pure Vegetarian & Vegan Hub with the best 360° rooftop terrace view of Tbilisi City & Holy Trinity Cathedral</p>
+    <span class="hero-label" data-i18n="heroLabel">Rooftop dining · Avlabari, Old Tbilisi</span>
+    <h1><span class="green">Livin</span> <span class="gold">Cafe</span><br>Tbilisi</h1>
+    <p class="hero-desc" data-i18n="heroDesc">Pure vegetarian &amp; vegan hub with the best 360 rooftop view of Tbilisi and Holy Trinity Cathedral.</p>
     <div class="hero-actions">
-      <a href="https://menu.ps.me/PnsCt-fEtQE" target="_blank" class="btn-main" data-i18n="heroBtn1">View Menu</a>
+      <a href="#menu" class="btn-main" data-i18n="heroBtn1">View Menu</a>
       <a href="#about" class="btn-ghost" data-i18n="heroBtn2">Our Story</a>
     </div>
   </div>
@@ -60,22 +62,21 @@
 
 <!-- MARQUEE -->
 <div class="marquee">
-  <div class="marquee-track" id="marqueeTrack">
-    <div class="marquee-item"><span class="dot"></span> 360° Sky Lounge</div>
-    <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq1">Pure Vegetarian & Vegan</span></div>
+  <div class="marquee-track">
+    <div class="marquee-item"><span class="dot"></span> 360 Sky Lounge</div>
+    <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq1">Pure Vegetarian &amp; Vegan</span></div>
     <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq2">Rooftop Terrace</span></div>
-    <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq3">Halal Food</span></div>
-    <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq4">Bar & Club</span></div>
-    <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq5">Cruelty-Free</span></div>
+    <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq3">Plant-Based Kitchen</span></div>
+    <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq4">Bar &amp; Club</span></div>
+    <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq5">Fresh Daily</span></div>
     <div class="marquee-item"><span class="dot"></span> Old Tbilisi</div>
     <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq6">Cooked With Love</span></div>
-    <!-- duplicated for infinite scroll -->
-    <div class="marquee-item"><span class="dot"></span> 360° Sky Lounge</div>
-    <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq1b">Pure Vegetarian & Vegan</span></div>
+    <div class="marquee-item"><span class="dot"></span> 360 Sky Lounge</div>
+    <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq1b">Pure Vegetarian &amp; Vegan</span></div>
     <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq2b">Rooftop Terrace</span></div>
-    <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq3b">Halal Food</span></div>
-    <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq4b">Bar & Club</span></div>
-    <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq5b">Cruelty-Free</span></div>
+    <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq3b">Plant-Based Kitchen</span></div>
+    <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq4b">Bar &amp; Club</span></div>
+    <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq5b">Fresh Daily</span></div>
     <div class="marquee-item"><span class="dot"></span> Old Tbilisi</div>
     <div class="marquee-item"><span class="dot"></span> <span data-i18n="mq6b">Cooked With Love</span></div>
   </div>
@@ -84,66 +85,157 @@
 <!-- ABOUT -->
 <section id="about">
   <div class="container">
-    <span class="section-tag reveal" data-i18n="aboutTag">Our Story</span>
-    <h2 class="section-title reveal" data-i18n="aboutTitle">About Livin Café</h2>
-    <p class="section-sub reveal" data-i18n="aboutSub">Where conscious dining meets breathtaking views</p>
-    <div class="about-split">
-      <div class="about-visual reveal">
-        <div class="accent-line"></div>
-        <div class="main-img"><img src="assets/rooftop-terrace.png" alt="Rooftop Terrace"></div>
-        <div class="float-img"><img src="assets/vegan-feast.png" alt="Vegan Dishes"></div>
+    <span class="section-label reveal" data-i18n="aboutLabel">Our Story</span>
+    <h2 class="section-title reveal" data-i18n="aboutTitle">About Livin Cafe</h2>
+    <p class="section-sub reveal" data-i18n="aboutSub">Where mindful dining meets the best view in Tbilisi</p>
+    <div class="about-grid">
+      <div class="about-img reveal">
+        <div class="corner"></div>
+        <img src="assets/photos/interior.jpg" alt="Livin Cafe Interior">
       </div>
       <div class="about-body">
-        <p class="reveal" data-i18n="aboutP">Perched atop the Livin Hotel at 44 Samreklo Street in the heart of Old Tbilisi's Avlabari district, Livin Café offers the best 360° rooftop terrace view of Tbilisi City and the iconic Holy Trinity Cathedral. We are more than just a restaurant — we are a movement for conscious, healthy, and cruelty-free living.</p>
-        <blockquote class="reveal" data-i18n="aboutQuote">"To inspire a conscious and healthy lifestyle through balanced, fresh, and cruelty-free food."</blockquote>
-        <ul class="principles reveal">
-          <li><span class="icon">✓</span><span data-i18n="pr1">NO eggs, NO meat, NO poultry, NO seafood</span></li>
-          <li><span class="icon">✓</span><span data-i18n="pr2">100% Halal food</span></li>
-          <li><span class="icon">✓</span><span data-i18n="pr3">Fresh & cruelty-free daily</span></li>
-          <li><span class="icon">✓</span><span data-i18n="pr4">Caring for our planet</span></li>
+        <p class="reveal" data-i18n="aboutP">Perched atop the Livin Hotel at 44 Samreklo Street in old Tbilisi Avlabari district, we offer the best 360 rooftop view of the city and Holy Trinity Cathedral. Everything on our menu is purely vegetarian and vegan made fresh every day from plant-based ingredients with no compromise on taste.</p>
+        <blockquote class="reveal" data-i18n="aboutQuote">"We believe great food doesn't need to come at the cost of the planet. Every dish tells a story of care."</blockquote>
+        <ul class="values reveal">
+          <li><span class="check">&#10003;</span><span data-i18n="pr1">No eggs, meat, poultry, or seafood</span></li>
+          <li><span class="check">&#10003;</span><span data-i18n="pr2">100% Halal food</span></li>
+          <li><span class="check">&#10003;</span><span data-i18n="pr3">Made fresh daily</span></li>
+          <li><span class="check">&#10003;</span><span data-i18n="pr4">Plant-based ingredients</span></li>
         </ul>
-        <div class="founder-sig reveal">
+        <div class="founder reveal">
           <div class="founder-avatar">R</div>
-          <div><span class="founder-name">Rauf S.</span><br><span class="founder-role" data-i18n="founderRole">Founder & Director</span></div>
+          <div><span class="founder-name">Rauf S.</span><br><span class="founder-role" data-i18n="founderRole">Founder &amp; Director</span></div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- IMAGE STRIP -->
-<div class="strip">
-  <div class="strip-card reveal">
-    <img src="assets/rooftop-terrace.png" alt="Terrace">
-    <div class="label"><h4 data-i18n="s1t">360° Terrace</h4><p data-i18n="s1d">Panoramic views of Old Tbilisi</p></div>
-  </div>
-  <div class="strip-card reveal reveal-d1">
-    <img src="assets/food-display.jpg" alt="Food">
-    <div class="label"><h4 data-i18n="s2t">Vegan Cuisine</h4><p data-i18n="s2d">Fresh & healthy, with love</p></div>
-  </div>
-  <div class="strip-card reveal reveal-d2">
-    <img src="assets/sky-lounge.png" alt="Lounge">
-    <div class="label"><h4 data-i18n="s3t">Sky Lounge</h4><p data-i18n="s3d">Bar • Club • Chill vibes</p></div>
+<!-- PHOTO BREAK -->
+<div class="photo-break">
+  <img src="assets/photos/cathedral-view.jpg" alt="Cathedral view from Livin Cafe">
+  <div class="photo-break-overlay"></div>
+  <div class="photo-break-text reveal">
+    <blockquote data-i18n="breakQuote">"The best 360 rooftop terrace view in all of Tbilisi."</blockquote>
+    <cite data-i18n="breakCite">Samreklo 44, Avlabari</cite>
   </div>
 </div>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="container">
+    <span class="section-label reveal" data-i18n="galleryLabel">Our Space</span>
+    <h2 class="section-title reveal" data-i18n="galleryTitle">Experience Livin</h2>
+    <p class="section-sub reveal" data-i18n="gallerySub">Step inside our rooftop world above the city</p>
+  </div>
+  <div class="gallery-strip reveal">
+    <div class="gallery-item"><img src="assets/photos/rooftop-view.jpg" alt="Rooftop view"></div>
+    <div class="gallery-item"><img src="assets/photos/cathedral-view2.jpg" alt="Cathedral view"></div>
+    <div class="gallery-item"><img src="assets/photos/lounge.jpg" alt="Lounge area"></div>
+    <div class="gallery-item"><img src="assets/photos/terrace.jpg" alt="Terrace panorama"></div>
+    <div class="gallery-item"><img src="assets/photos/cathedral-exterior.jpg" alt="Cathedral exterior"></div>
+    <div class="gallery-item"><img src="assets/photos/decor.jpg" alt="Interior decor"></div>
+  </div>
+</section>
 
 <!-- MENU -->
 <section id="menu">
   <div class="container">
-    <span class="section-tag reveal" data-i18n="menuTag">Our Menu</span>
-    <h2 class="section-title reveal" data-i18n="menuTitle">Taste the Goodness</h2>
-    <p class="section-sub reveal" data-i18n="menuSub">Explore our carefully curated plant-based dishes</p>
-    <div class="menu-placeholder reveal">
-      <span class="icon">🥦</span>
-      <h3 data-i18n="menuSoon">Menu Coming Soon</h3>
-      <p data-i18n="menuSoonP">We're preparing something beautiful. In the meantime, check out our full menu online.</p>
-      <div class="tags">
-        <span class="tag" data-i18n="t1">🥗 Salads</span><span class="tag" data-i18n="t2">🍜 Soups</span>
-        <span class="tag" data-i18n="t3">🌯 Wraps</span><span class="tag" data-i18n="t4">🍕 Pizza</span>
-        <span class="tag" data-i18n="t5">🥤 Smoothies</span><span class="tag" data-i18n="t6">🍹 Cocktails</span>
-        <span class="tag" data-i18n="t7">🍰 Desserts</span>
+    <span class="section-label reveal" data-i18n="menuLabel">Our Menu</span>
+    <h2 class="section-title reveal" data-i18n="menuTitle">Taste Our Kitchen</h2>
+    <p class="section-sub reveal" data-i18n="menuSub">100% plant-based. Made fresh every day.</p>
+
+    <div class="menu-tabs reveal" id="menuTabs">
+      <button class="tab-btn active" data-tab="salads" data-i18n="t1">Salads</button>
+      <button class="tab-btn" data-tab="soups" data-i18n="t2">Soups</button>
+      <button class="tab-btn" data-tab="mains" data-i18n="t3">Main Dishes</button>
+      <button class="tab-btn" data-tab="indian" data-i18n="t4">Indian</button>
+      <button class="tab-btn" data-tab="starters" data-i18n="t8">Starters</button>
+      <button class="tab-btn" data-tab="desserts" data-i18n="t5">Desserts</button>
+      <button class="tab-btn" data-tab="drinks" data-i18n="t6">Drinks</button>
+    </div>
+
+    <!-- SALADS -->
+    <div class="menu-panel active" id="tab-salads">
+      <div class="menu-grid">
+        <div class="menu-card"><div class="menu-card-body"><h4>Greek Salad</h4><p class="mc-desc">Tomato, cucumber, olives, feta-style cheese, olive oil</p></div><span class="mc-price">18 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Caesar Salad</h4><p class="mc-desc">Romaine, croutons, vegan caesar dressing, parmesan</p></div><span class="mc-price">20 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4 data-i18n="d2name">Avocado Salad</h4><p class="mc-desc" data-i18n="d2desc">Broccoli, avocado, cashew, olive oil, lemon</p></div><span class="mc-price">25 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Tuna Salad</h4><p class="mc-desc">Plant-based tuna, mixed greens, capers, lemon dressing</p></div><span class="mc-price">22 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Asian Slaw</h4><p class="mc-desc">Cabbage, carrot, sesame, ginger-soy dressing</p></div><span class="mc-price">18 &#8382;</span></div>
       </div>
-      <a href="https://menu.ps.me/PnsCt-fEtQE" target="_blank" class="btn-main" data-i18n="menuBtn">View Full Menu</a>
+    </div>
+
+    <!-- SOUPS -->
+    <div class="menu-panel" id="tab-soups">
+      <div class="menu-grid">
+        <div class="menu-card"><div class="menu-card-body"><h4>Tom Yum</h4><p class="mc-desc" data-i18n="d3desc">Tofu, mushroom, noodles, coconut cream</p></div><span class="mc-price">25 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Tomato Basil</h4><p class="mc-desc">Fresh tomato, basil, cream, garlic bread</p></div><span class="mc-price">18 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Lentil Soup</h4><p class="mc-desc">Red lentils, cumin, turmeric, lemon, coriander</p></div><span class="mc-price">18 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Mushroom Cream</h4><p class="mc-desc">Mixed mushrooms, oat cream, thyme, truffle oil</p></div><span class="mc-price">20 &#8382;</span></div>
+      </div>
+    </div>
+
+    <!-- MAINS -->
+    <div class="menu-panel" id="tab-mains">
+      <div class="menu-grid">
+        <div class="menu-card"><div class="menu-card-body"><h4>CheeseBurger</h4><p class="mc-desc" data-i18n="d1desc">Beyond Meat patty, mozzarella, potato wedges</p></div><span class="mc-price">38 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4 data-i18n="d4name">Falafel Roll</h4><p class="mc-desc" data-i18n="d4desc">Homemade lavash, lettuce, tomato, hummus</p></div><span class="mc-price">25 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Nachos</h4><p class="mc-desc" data-i18n="d6desc">Corn chips, jalapeno, mozzarella, vegan sauce</p></div><span class="mc-price">18 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Pasta Arrabbiata</h4><p class="mc-desc">Penne, spicy tomato, garlic, fresh basil</p></div><span class="mc-price">24 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Pad Thai</h4><p class="mc-desc">Rice noodles, tofu, bean sprouts, peanuts, lime</p></div><span class="mc-price">28 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Vegan Pizza</h4><p class="mc-desc">Tomato base, vegan cheese, roasted vegetables</p></div><span class="mc-price">30 &#8382;</span></div>
+      </div>
+    </div>
+
+    <!-- INDIAN -->
+    <div class="menu-panel" id="tab-indian">
+      <div class="menu-grid">
+        <div class="menu-card"><div class="menu-card-body"><h4>Paneer Masala</h4><p class="mc-desc" data-i18n="d5desc">Cashew, garam masala, ginger, turmeric</p></div><span class="mc-price">35 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Chana Masala</h4><p class="mc-desc">Chickpeas, tomato, onion, spices, basmati rice</p></div><span class="mc-price">28 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Dal Tadka</h4><p class="mc-desc">Yellow lentils, ghee-style oil, cumin, garlic</p></div><span class="mc-price">25 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Aloo Gobi</h4><p class="mc-desc">Potato, cauliflower, turmeric, coriander</p></div><span class="mc-price">25 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Biryani</h4><p class="mc-desc">Basmati rice, mixed vegetables, fried onion, raita</p></div><span class="mc-price">32 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Naan Bread</h4><p class="mc-desc">Freshly baked, with garlic butter or plain</p></div><span class="mc-price">8 &#8382;</span></div>
+      </div>
+    </div>
+
+    <!-- STARTERS -->
+    <div class="menu-panel" id="tab-starters">
+      <div class="menu-grid">
+        <div class="menu-card"><div class="menu-card-body"><h4>Hummus &amp; Pita</h4><p class="mc-desc">Homemade hummus, warm pita, olive oil, paprika</p></div><span class="mc-price">15 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Bruschetta</h4><p class="mc-desc">Toasted bread, fresh tomato, basil, garlic</p></div><span class="mc-price">14 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Spring Rolls</h4><p class="mc-desc">Crispy rolls, vegetable filling, sweet chili dip</p></div><span class="mc-price">18 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Smoothie Bowl</h4><p class="mc-desc">Acai, banana, granola, seasonal fruits</p></div><span class="mc-price">20 &#8382;</span></div>
+      </div>
+    </div>
+
+    <!-- DESSERTS -->
+    <div class="menu-panel" id="tab-desserts">
+      <div class="menu-grid">
+        <div class="menu-card"><div class="menu-card-body"><h4>Chocolate Lava</h4><p class="mc-desc">Warm dark chocolate cake, vegan vanilla ice cream</p></div><span class="mc-price">22 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Cheesecake</h4><p class="mc-desc">Cashew cream, berry compote, biscuit base</p></div><span class="mc-price">20 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Tiramisu</h4><p class="mc-desc">Vegan mascarpone, espresso, cocoa, ladyfingers</p></div><span class="mc-price">20 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Baklava</h4><p class="mc-desc">Layered pastry, walnut, honey syrup</p></div><span class="mc-price">15 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Acai Bowl</h4><p class="mc-desc">Frozen acai, coconut milk, granola, fresh fruit</p></div><span class="mc-price">22 &#8382;</span></div>
+      </div>
+    </div>
+
+    <!-- DRINKS -->
+    <div class="menu-panel" id="tab-drinks">
+      <div class="menu-grid">
+        <div class="menu-card"><div class="menu-card-body"><h4>Fresh Juices</h4><p class="mc-desc">Orange, apple, carrot, beet, ginger — seasonal</p></div><span class="mc-price">12 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Smoothies</h4><p class="mc-desc">Mango-banana, berry blast, green detox</p></div><span class="mc-price">15 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Cocktails</h4><p class="mc-desc">Mojito, Pina Colada, Cosmopolitan and more</p></div><span class="mc-price">25 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Specialty Coffee</h4><p class="mc-desc">Espresso, oat latte, matcha latte, cold brew</p></div><span class="mc-price">10 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Herbal Teas</h4><p class="mc-desc">Chamomile, mint, ginger-lemon, rose, hibiscus</p></div><span class="mc-price">8 &#8382;</span></div>
+        <div class="menu-card"><div class="menu-card-body"><h4>Livin Lemonade</h4><p class="mc-desc">House lemonade — mint, cucumber, or strawberry</p></div><span class="mc-price">12 &#8382;</span></div>
+      </div>
+    </div>
+
+    <div class="menu-cta reveal">
+      <p data-i18n="menuCtaP">Full menu available online — salads, soups, wraps, Indian dishes, desserts, cocktails and more.</p>
+      <a href="https://menu.ps.me/PnsCt-fEtQE" target="_blank" class="btn-main" data-i18n="menuBtn">View Full Menu Online</a>
     </div>
   </div>
 </section>
@@ -151,16 +243,16 @@
 <!-- CONTACT -->
 <section id="contact">
   <div class="container">
-    <span class="section-tag reveal" data-i18n="contactTag">Get in Touch</span>
+    <span class="section-label reveal" data-i18n="contactLabel">Get in Touch</span>
     <h2 class="section-title reveal" data-i18n="contactTitle">Visit Us</h2>
-    <p class="section-sub reveal" data-i18n="contactSub">We'd love to welcome you to our rooftop</p>
-    <div class="contact-layout">
+    <p class="section-sub reveal" data-i18n="contactSub">We would love to welcome you to our rooftop</p>
+    <div class="contact-grid">
       <div class="contact-cards reveal">
-        <div class="c-card"><div class="c-icon">📍</div><div><h4 data-i18n="cAddr">Address</h4><p data-i18n="cAddrV">Livin Hotel's Rooftop, 44 Samreklo Street<br>Avlabari, Old Tbilisi, Georgia</p><p class="c-note" data-i18n="cAddrN">80m from Holy Trinity Cathedral</p></div></div>
-        <div class="c-card"><div class="c-icon">🕐</div><div><h4 data-i18n="cHours">Working Hours</h4><p data-i18n="cHoursV">Daily: 12:00 PM — 23:00 PM</p></div></div>
-        <div class="c-card"><div class="c-icon">📞</div><div><h4 data-i18n="cPhone">Phone & WhatsApp</h4><p><a href="tel:+995598234108">+995 598 234 108</a></p></div></div>
-        <div class="c-card"><div class="c-icon">✉️</div><div><h4 data-i18n="cEmail">Email</h4><p><a href="mailto:livin.cafe.tbilisi@gmail.com">livin.cafe.tbilisi@gmail.com</a></p></div></div>
-        <div class="c-card"><div class="c-icon">🚇</div><div><h4 data-i18n="cDir">Direction</h4><p data-i18n="cDirV">Avlabari Metro Station Area</p><p class="c-note" data-i18n="cDirN">Parking in front of Holy Trinity Cathedral</p></div></div>
+        <div class="c-card"><div class="c-icon">&#128205;</div><div><h4 data-i18n="cAddr">Address</h4><p data-i18n="cAddrV">Livin Hotel Rooftop, 44 Samreklo Street<br>Avlabari, Old Tbilisi, Georgia</p><p class="c-note" data-i18n="cAddrN">80m from Holy Trinity Cathedral</p></div></div>
+        <div class="c-card"><div class="c-icon">&#128336;</div><div><h4 data-i18n="cHours">Hours</h4><p data-i18n="cHoursV">Daily: 12:00 - 23:00</p></div></div>
+        <div class="c-card"><div class="c-icon">&#128222;</div><div><h4 data-i18n="cPhone">Phone &amp; WhatsApp</h4><p><a href="tel:+995598234108">+995 598 234 108</a></p></div></div>
+        <div class="c-card"><div class="c-icon">&#9993;&#65039;</div><div><h4 data-i18n="cEmail">Email</h4><p><a href="mailto:livin.cafe.tbilisi@gmail.com">livin.cafe.tbilisi@gmail.com</a></p></div></div>
+        <div class="c-card"><div class="c-icon">&#128647;</div><div><h4 data-i18n="cDir">Direction</h4><p data-i18n="cDirV">Avlabari Metro Station Area</p><p class="c-note" data-i18n="cDirN">Parking near Holy Trinity Cathedral</p></div></div>
       </div>
       <div class="map-wrap reveal">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1489.3!2d44.8063!3d41.6975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f846b%3A0x61d2e96453b055cf!2sHoly%20Trinity%20Cathedral%20of%20Tbilisi!5e0!3m2!1sen!2sge!4v1700000000000!5m2!1sen!2sge" loading="lazy" title="Map"></iframe>
@@ -184,9 +276,13 @@
 
 <!-- FOOTER -->
 <footer class="footer">
-  <div class="footer-brand"><img src="assets/logo.png" alt="Logo"><span>LIVIN CAFÉ TBILISI</span></div>
-  <div class="footer-delivery"><span>🛵 Wolt</span><span>⚡ Bolt</span><span>📦 Glovo</span></div>
-  <p data-i18n="footerText">With <span class="heart">❤️</span> from Tbilisi • © 2025 Livin Café Tbilisi</p>
+  <div class="footer-brand"><img src="assets/logo.png" alt="Logo"><span>LIVIN CAFE TBILISI</span></div>
+  <div class="footer-delivery">
+    <a href="https://wolt.com" target="_blank" class="delivery-badge">Wolt</a>
+    <a href="https://bolt.eu/food" target="_blank" class="delivery-badge">Bolt Food</a>
+    <a href="https://glovoapp.com" target="_blank" class="delivery-badge">Glovo</a>
+  </div>
+  <p data-i18n="footerText">With <span class="heart">&#10084;</span> from Tbilisi &middot; &copy; 2026 Livin Cafe Tbilisi</p>
 </footer>
 
 <script src="script.js"></script>
