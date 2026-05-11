@@ -19,7 +19,7 @@ m_dr1:"Espresso",m_dr2:"Cappuccino",m_dr3:"Latte / Iced Latte",m_dr4:"Masala Tea
 menuCtaP:"Full menu with all options available online.",menuBtn:"View Full Menu Online",
 hotelLabel:"Our Property",hotelTitle:"Livin Hotel Tbilisi",hotelSub:"Georgia's first & only vegan & vegetarian boutique hotel",hb1:"First & Only Vegan Hotel",hb2:"12 Room Boutique Property",hb3:"Best City View",hb4:"Eco Comfort",hotelDesc:"An intimate 12-room boutique stay in the heart of Avlabari, Old Tbilisi. Georgia's first and only fully vegan & vegetarian hotel — where every detail reflects a commitment to sustainable, mindful living. Wake up to breathtaking views of Holy Trinity Cathedral right from your window.",hotelBtn:"Book Your Stay on Booking.com",
 contactLabel:"Get in Touch",contactTitle:"Visit Us",contactSub:"We would love to welcome you to our rooftop",cAddr:"Address",cAddrV:"Livin Hotel Rooftop, 44 Samreklo Street<br>Avlabari, Old Tbilisi, Georgia",cAddrN:"80m from Holy Trinity Cathedral",cHours:"Hours",cHoursV:"Daily: 12:00 – 23:00",cPhone:"Phone & WhatsApp",cEmail:"Email",cDir:"Direction",cDelivery:"Delivery",
-footerTagline:"The One & Only Pure Vegan Rooftop",footerText:'With <span class="heart">❤</span> from Tbilisi · © 2026 Livin Café Tbilisi'},
+footerTagline:"The One & Only Pure Vegan Rooftop",footerText:'With <span class="heart">❤</span> from Tbilisi · © 2026 Livin Café Tbilisi',reviewBtn:'Leave a Google Review'},
 
 ru:{navHome:"Главная",navAbout:"О нас",navGallery:"Галерея",navMenu:"Меню",navHotel:"Наш Отель",navContact:"Контакты",navCta:"Забронировать стол",topHours:"Ежедневно 12:00 – 23:00",heroLabel:"Ресторан на крыше · Авлабари, Старый Тбилиси",heroDesc:"Единственный чисто вегетарианский и веганский хаб с лучшим панорамным видом 360° на Тбилиси и Собор Святой Троицы.",heroBtn1:"Смотреть меню",heroBtn2:"Наша история",scrollText:"Листать",
 mq1:"Вегетарианское и Веганское",mq2:"Терраса на крыше",mq3:"Растительная кухня",mq4:"Бар и Клуб",mq5:"Свежее ежедневно",
@@ -41,7 +41,7 @@ m_dr1:"Эспрессо",m_dr2:"Капучино",m_dr3:"Латте / Айс л�
 menuCtaP:"Полное меню со всеми опциями доступно онлайн.",menuBtn:"Полное меню онлайн",
 hotelLabel:"Наша гостиница",hotelTitle:"Livin Hotel Тбилиси",hotelSub:"Первый и единственный веганский бутик-отель Грузии",hb1:"Первый и единственный веганский отель",hb2:"Бутик-отель на 12 номеров",hb3:"Лучший вид на город",hb4:"Эко-комфорт",hotelDesc:"Уютный бутик-отель на 12 номеров в сердце Авлабари. Первый и единственный полностью веганский и вегетарианский отель Грузии. Просыпайтесь с видом на Собор Святой Троицы прямо из вашего окна.",hotelBtn:"Забронировать на Booking.com",
 contactLabel:"Связаться с нами",contactTitle:"Посетите нас",contactSub:"Мы рады приветствовать вас на нашей террасе",cAddr:"Адрес",cAddrV:"Крыша отеля Livin, ул. Самрекло 44<br>Авлабари, Старый Тбилиси, Грузия",cAddrN:"80м от Собора Святой Троицы",cHours:"Время работы",cHoursV:"Ежедневно: 12:00 – 23:00",cPhone:"Телефон и WhatsApp",cEmail:"Эл. почта",cDelivery:"Доставка",
-footerTagline:"Единственный чисто веганский ресторан на крыше",footerText:'С <span class="heart">❤</span> из Тбилиси · © 2026 Livin Café Tbilisi'},
+footerTagline:"Единственный чисто веганский ресторан на крыше",footerText:'С <span class="heart">❤</span> из Тбилиси · © 2026 Livin Café Tbilisi',reviewBtn:'Оставить отзыв на Google'},
 
 ka:{navHome:"მთავარი",navAbout:"ჩვენ შესახებ",navGallery:"გალერეა",navMenu:"მენიუ",navHotel:"ჩვენი სასტუმრო",navContact:"კონტაქტი",navCta:"მაგიდის დაჯავშნა",topHours:"ყოველდღე 12:00 – 23:00",heroLabel:"სახურავის რესტორანი · ავლაბარი, ძველი თბილისი",heroDesc:"ერთადერთი სუფთა ვეგეტარიანული და ვეგანური ჰაბი თბილისის საუკეთესო 360° პანორამული ხედით სამების საკათედრო ტაძარზე.",heroBtn1:"მენიუს ნახვა",heroBtn2:"ჩვენი ისტორია",scrollText:"გადაახვიე",
 mq1:"სუფთა ვეგეტარიანული და ვეგანური",mq2:"სახურავის ტერასა",mq3:"მცენარეული სამზარეულო",mq4:"ბარი და კლუბი",mq5:"ყოველდღე ახალი",
@@ -63,7 +63,7 @@ m_dr1:"ესპრესო",m_dr2:"კაპუჩინო",m_dr3:"ლატ�
 menuCtaP:"სრული მენიუ ყველა ვარიანტით ხელმისაწვდომია ონლაინ.",menuBtn:"სრული მენიუს ნახვა",
 hotelLabel:"ჩვენი სასტუმრო",hotelTitle:"Livin Hotel თბილისი",hotelSub:"საქართველოს პირველი და ერთადერთი ვეგანური ბუტიკ-სასტუმრო",hb1:"პირველი და ერთადერთი ვეგანური სასტუმრო",hb2:"12 ნომრიანი ბუტიკ-სასტუმრო",hb3:"ქალაქის საუკეთესო ხედი",hb4:"ეკო-კომფორტი",hotelDesc:"12 ნომრიანი ინტიმური ბუტიკ-სასტუმრო ავლაბრის გულში. საქართველოს პირველი სრულად ვეგანური და ვეგეტარიანული სასტუმრო. გაიღვიძე სამების ტაძრის ხედით.",hotelBtn:"დაჯავშნა Booking.com-ზე",
 contactLabel:"დაგვიკავშირდით",contactTitle:"გვეწვიეთ",contactSub:"სიხარულით მოგესალმებით ჩვენს ტერასაზე",cAddr:"მისამართი",cAddrV:"Livin Hotel-ის სახურავი, სამრეკლო 44<br>ავლაბარი, ძველი თბილისი, საქართველო",cAddrN:"სამების ტაძრიდან 80 მ",cHours:"სამუშაო საათები",cHoursV:"ყოველდღე: 12:00 – 23:00",cPhone:"ტელეფონი და WhatsApp",cEmail:"ელ-ფოსტა",cDelivery:"მიწოდება",
-footerTagline:"ერთადერთი სუფთა ვეგანური სახურავის რესტორანი",footerText:'სიყვარულით <span class="heart">❤</span> თბილისიდან · © 2026 Livin Café Tbilisi'}
+footerTagline:"ერთადერთი სუფთა ვეგანური სახურავის რესტორანი",footerText:'სიყვარულით <span class="heart">❤</span> თბილისიდან · © 2026 Livin Café Tbilisi',reviewBtn:'Google-ზე შეფასების დატოვება'}
 };
 
 let lang=localStorage.getItem('livin-lang')||'en';

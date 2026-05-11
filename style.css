@@ -196,9 +196,12 @@ section:nth-of-type(even){background:var(--bg2)}
 /* ─── FOOTER ─── */
 .footer{background:var(--dark2);color:rgba(255,255,255,.7);padding:0}
 .footer-top{border-bottom:1px solid rgba(255,255,255,.06);padding:3rem 4%;display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:3rem;max-width:1200px;margin:0 auto}
-.footer-brand .footer-logo-text{font-family:var(--accent);font-size:1.15rem;font-weight:700;letter-spacing:2px;color:#fff}
+.footer-brand .footer-logo-text{font-family:var(--accent);font-size:1.25rem;font-weight:700;letter-spacing:2px;color:#fff}
 .footer-brand .footer-logo-text em{color:var(--saffron);font-style:normal}
-.footer-brand p{font-size:.78rem;color:rgba(255,255,255,.4);margin-top:.4rem;line-height:1.7;max-width:260px}
+.footer-tagline-main{font-size:.92rem;color:rgba(255,255,255,.7);margin-top:.5rem;line-height:1.6;font-weight:400}
+.footer-tagline-sub{font-size:.78rem;color:rgba(255,255,255,.35);margin-bottom:1rem;letter-spacing:.5px}
+.google-review-btn{display:inline-flex;align-items:center;gap:10px;background:#fff;color:#3c4043;text-decoration:none;padding:10px 18px;border-radius:30px;font-family:var(--accent);font-size:.78rem;font-weight:600;letter-spacing:.3px;margin-bottom:1.2rem;transition:.3s;box-shadow:0 2px 10px rgba(0,0,0,.2)}
+.google-review-btn:hover{transform:translateY(-2px);box-shadow:0 4px 16px rgba(0,0,0,.3)}
 .footer-col h5{font-family:var(--accent);font-size:.75rem;letter-spacing:3px;text-transform:uppercase;color:var(--saffron);margin-bottom:1rem}
 .footer-col a{display:block;text-decoration:none;color:rgba(255,255,255,.45);font-size:.82rem;font-family:var(--accent);letter-spacing:.5px;margin-bottom:.5rem;transition:.3s}
 .footer-col a:hover{color:var(--saffron-light)}
