@@ -1,9 +1,24 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>Livin Cafe Tbilisi — Pure Vegetarian & Vegan Rooftop</title>
   <meta name="description" content="The one and only pure vegetarian and vegan rooftop cafe in Tbilisi with 360 views of Holy Trinity Cathedral. Samreklo 44, Avlabari.">
+  <!-- OG Tags -->
+  <meta property="og:title" content="Livin Cafe Tbilisi — Pure Vegetarian & Vegan Rooftop">
+  <meta property="og:description" content="The one & only Pure Vegetarian & Vegan Hub with the best 360° rooftop terrace view of Tbilisi City & Holy Trinity Cathedral.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.livincafetbilisi.com">
+  <meta property="og:image" content="https://www.livincafetbilisi.com/photos/cathedral-view.jpg">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="ka_GE">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Livin Cafe Tbilisi — Pure Vegetarian & Vegan Rooftop">
+  <meta name="twitter:description" content="360° Sky Lounge · Bar · Terrace · Pure Vegetarian & Vegan Hub in Old Tbilisi">
+  <meta name="twitter:image" content="https://www.livincafetbilisi.com/photos/cathedral-view.jpg">
+  <!-- Favicon SVG -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect rx='18' width='100' height='100' fill='%231a6b3c'/><text x='50' y='72' text-anchor='middle' font-size='58' font-family='serif' font-weight='bold' fill='%23f5c430'>L</text></svg>">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -55,6 +70,7 @@
   <div class="mobile-lang"><button class="lang-btn" data-lang="en">EN</button><button class="lang-btn" data-lang="ru">RU</button><button class="lang-btn" data-lang="ka">ქა</button></div>
 </div>
 
+<!-- HERO — brighter video filter -->
 <section class="hero" id="home">
   <div class="hero-video-wrap">
     <video autoplay muted loop playsinline class="hero-video" poster="photos/cathedral-view.jpg">
@@ -75,6 +91,7 @@
   <div class="hero-scroll"><span data-i18n="scrollText">Scroll</span><div class="hero-scroll-line"></div></div>
 </section>
 
+<!-- MARQUEE -->
 <div class="marquee"><div class="marquee-track">
   <div class="marquee-item"><span class="dot"></span>360&deg; Sky Lounge</div>
   <div class="marquee-item"><span class="dot"></span><span data-i18n="mq1">Pure Vegetarian &amp; Vegan</span></div>
@@ -91,6 +108,7 @@
   <div class="marquee-item"><span class="dot"></span>Samreklo 44</div>
 </div></div>
 
+<!-- ABOUT -->
 <section id="about">
   <div class="container">
     <span class="section-label reveal" data-i18n="aboutLabel">Our Story</span>
@@ -112,6 +130,24 @@
   </div>
 </section>
 
+<!-- MISSION — NEW SECTION -->
+<section class="mission-section" id="mission">
+  <div class="mission-inner">
+    <div class="mission-icon reveal">🪷</div>
+    <span class="section-label reveal" data-i18n="missionLabel">Our Mission</span>
+    <h2 class="section-title reveal" data-i18n="missionTitle">Food That Cares</h2>
+    <p class="mission-text reveal" data-i18n="missionText">To inspire a conscious and healthy lifestyle through balanced, fresh, and cruelty-free food. We do believe that caring for ourselves also means caring for our community, our country, animals, the environment and our planet.</p>
+    <div class="mission-pillars reveal">
+      <div class="mission-pillar"><i class="fas fa-users"></i> <span data-i18n="mp1">Community</span></div>
+      <div class="mission-pillar"><i class="fas fa-heartbeat"></i> <span data-i18n="mp2">Health</span></div>
+      <div class="mission-pillar"><i class="fas fa-paw"></i> <span data-i18n="mp3">Animals</span></div>
+      <div class="mission-pillar"><i class="fas fa-leaf"></i> <span data-i18n="mp4">Environment</span></div>
+      <div class="mission-pillar"><i class="fas fa-globe-americas"></i> <span data-i18n="mp5">Planet</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- OWNER -->
 <section class="owner-section" id="owner">
   <div class="container">
     <div class="owner-card reveal">
@@ -128,6 +164,7 @@
   </div>
 </section>
 
+<!-- PHOTO BREAK -->
 <div class="photo-break">
   <img src="photos/cathedral-view.jpg" alt="Cathedral view from Livin Cafe">
   <div class="photo-break-overlay"></div>
@@ -137,6 +174,7 @@
   </div>
 </div>
 
+<!-- MENU — with i18n keys for translation -->
 <section id="menu">
   <div class="container">
     <span class="section-label reveal" data-i18n="menuLabel">Our Menu</span>
@@ -151,50 +189,57 @@
       <button class="tab-btn" data-tab="desserts" data-i18n="t5">Desserts</button>
       <button class="tab-btn" data-tab="drinks" data-i18n="t6">Drinks</button>
     </div>
+    <!-- BREAKFAST -->
     <div class="menu-panel active" id="tab-breakfast"><div class="menu-grid">
-      <div class="menu-card"><div class="menu-card-body"><h4>Toast Bread Cheese Sandwich</h4><p class="mc-desc">Classic toasted cheese sandwich</p></div><span class="mc-price">15 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Oat Meal With Berries <span class="tag-v">Vegan</span></h4><p class="mc-desc">Hearty oatmeal with seasonal berries</p></div><span class="mc-price">13 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Smoothie Bowl <span class="tag-v">Vegan</span></h4><p class="mc-desc">Acai, banana, granola, seasonal fruits</p></div><span class="mc-price">25 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_b1">Toast Bread Cheese Sandwich</span></h4><p class="mc-desc" data-i18n="m_b1d">Classic toasted cheese sandwich</p></div><span class="mc-price">15 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_b2">Oat Meal With Berries</span> <span class="tag-v">Vegan</span></h4><p class="mc-desc" data-i18n="m_b2d">Hearty oatmeal with seasonal berries</p></div><span class="mc-price">13 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_b3">Smoothie Bowl</span> <span class="tag-v">Vegan</span></h4><p class="mc-desc" data-i18n="m_b3d">Acai, banana, granola, seasonal fruits</p></div><span class="mc-price">25 &#8382;</span></div>
     </div></div>
+    <!-- SALADS -->
     <div class="menu-panel" id="tab-salads"><div class="menu-grid">
-      <div class="menu-card"><div class="menu-card-body"><h4>Broccoli &amp; Avocado Salad <span class="tag-v">Vegan</span></h4><p class="mc-desc">Broccoli, avocado, iceberg, tomato, zucchini, cashew</p></div><span class="mc-price">25 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Caesar Salad <span class="tag-vg">Vegetarian</span></h4><p class="mc-desc">Beyond Meat, parmesan, vegan caesar dressing</p></div><span class="mc-price">29 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_s1">Broccoli &amp; Avocado Salad</span> <span class="tag-v">Vegan</span></h4><p class="mc-desc" data-i18n="m_s1d">Broccoli, avocado, iceberg, tomato, zucchini, cashew</p></div><span class="mc-price">25 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_s2">Caesar Salad</span> <span class="tag-vg">Vegetarian</span></h4><p class="mc-desc" data-i18n="m_s2d">Beyond Meat, parmesan, vegan caesar dressing</p></div><span class="mc-price">29 &#8382;</span></div>
     </div></div>
+    <!-- SOUPS -->
     <div class="menu-panel" id="tab-soups"><div class="menu-grid">
-      <div class="menu-card"><div class="menu-card-body"><h4>Pumpkin Cream Soup <span class="tag-v">Vegan</span></h4><p class="mc-desc">Semi-sweet pumpkin, coconut cream, spices</p></div><span class="mc-price">18 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Miso Soup <span class="tag-v">Vegan</span></h4><p class="mc-desc">Tofu, wakame, nori, bell pepper, rice</p></div><span class="mc-price">22 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Tom Yum Noodles <span class="tag-v">Vegan</span></h4><p class="mc-desc">Tofu, mushroom, broccoli, coconut cream</p></div><span class="mc-price">25 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_sp1">Pumpkin Cream Soup</span> <span class="tag-v">Vegan</span></h4><p class="mc-desc" data-i18n="m_sp1d">Semi-sweet pumpkin, coconut cream, spices</p></div><span class="mc-price">18 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_sp2">Miso Soup</span> <span class="tag-v">Vegan</span></h4><p class="mc-desc" data-i18n="m_sp2d">Tofu, wakame, nori, bell pepper, rice</p></div><span class="mc-price">22 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_sp3">Tom Yum Noodles</span> <span class="tag-v">Vegan</span></h4><p class="mc-desc" data-i18n="m_sp3d">Tofu, mushroom, broccoli, coconut cream</p></div><span class="mc-price">25 &#8382;</span></div>
     </div></div>
+    <!-- MAINS -->
     <div class="menu-panel" id="tab-mains"><div class="menu-grid">
-      <div class="menu-card"><div class="menu-card-body"><h4>CheeseBurger <span class="tag-vg">Vegetarian</span></h4><p class="mc-desc">Beyond Meat patty, mozzarella, potato wedges</p></div><span class="mc-price">38 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Burger <span class="tag-v">Vegan</span></h4><p class="mc-desc">Beyond Meat, lettuce, tomato, vegan sauce</p></div><span class="mc-price">35 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Grilled Falafel Roll <span class="tag-v">Vegan</span></h4><p class="mc-desc">Lavash, lettuce, tomato, cucumber pickle</p></div><span class="mc-price">25 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Spicy Burrito Wrap <span class="tag-v">Vegan</span></h4><p class="mc-desc">Soy meat, corn, red beans, bell pepper, salsa</p></div><span class="mc-price">25 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Tofu Fish Fillet <span class="tag-v">Vegan</span></h4><p class="mc-desc">Tofu in nori, vegan tartar, home fries</p></div><span class="mc-price">35 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Singapore Noodles <span class="tag-v">Vegan</span></h4><p class="mc-desc">Bell pepper, carrot, zucchini, sesame, soy</p></div><span class="mc-price">28 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_m1">CheeseBurger</span> <span class="tag-vg">Vegetarian</span></h4><p class="mc-desc" data-i18n="m_m1d">Beyond Meat patty, mozzarella, potato wedges</p></div><span class="mc-price">38 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_m2">Burger</span> <span class="tag-v">Vegan</span></h4><p class="mc-desc" data-i18n="m_m2d">Beyond Meat, lettuce, tomato, vegan sauce</p></div><span class="mc-price">35 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_m3">Grilled Falafel Roll</span> <span class="tag-v">Vegan</span></h4><p class="mc-desc" data-i18n="m_m3d">Lavash, lettuce, tomato, cucumber pickle</p></div><span class="mc-price">25 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_m4">Spicy Burrito Wrap</span> <span class="tag-v">Vegan</span></h4><p class="mc-desc" data-i18n="m_m4d">Soy meat, corn, red beans, bell pepper, salsa</p></div><span class="mc-price">25 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_m5">Tofu Fish Fillet</span> <span class="tag-v">Vegan</span></h4><p class="mc-desc" data-i18n="m_m5d">Tofu in nori, vegan tartar, home fries</p></div><span class="mc-price">35 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_m6">Singapore Noodles</span> <span class="tag-v">Vegan</span></h4><p class="mc-desc" data-i18n="m_m6d">Bell pepper, carrot, zucchini, sesame, soy</p></div><span class="mc-price">28 &#8382;</span></div>
     </div></div>
+    <!-- INDIAN -->
     <div class="menu-panel" id="tab-indian"><div class="menu-grid">
-      <div class="menu-card"><div class="menu-card-body"><h4>Paneer Butter Masala <span class="tag-vg">Vegetarian</span></h4><p class="mc-desc">Tomato, cashew, garam masala, ginger</p></div><span class="mc-price">35 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Paneer Tikka Masala <span class="tag-vg">Vegetarian</span></h4><p class="mc-desc">Spicy, jeera rice, yogurt, bell pepper</p></div><span class="mc-price">35 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Dal Fry <span class="tag-v">Vegan</span></h4><p class="mc-desc">Yellow lentils, Indian spices, served with rice</p></div><span class="mc-price">35 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Chapati Bread <span class="tag-v">Vegan</span></h4></div><span class="mc-price">6 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_i1">Paneer Butter Masala</span> <span class="tag-vg">Vegetarian</span></h4><p class="mc-desc" data-i18n="m_i1d">Tomato, cashew, garam masala, ginger</p></div><span class="mc-price">35 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_i2">Paneer Tikka Masala</span> <span class="tag-vg">Vegetarian</span></h4><p class="mc-desc" data-i18n="m_i2d">Spicy, jeera rice, yogurt, bell pepper</p></div><span class="mc-price">35 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_i3">Dal Fry</span> <span class="tag-v">Vegan</span></h4><p class="mc-desc" data-i18n="m_i3d">Yellow lentils, Indian spices, served with rice</p></div><span class="mc-price">35 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_i4">Chapati Bread</span> <span class="tag-v">Vegan</span></h4></div><span class="mc-price">6 &#8382;</span></div>
     </div></div>
+    <!-- DESSERTS -->
     <div class="menu-panel" id="tab-desserts"><div class="menu-grid">
-      <div class="menu-card"><div class="menu-card-body"><h4>Tiramisu <span class="tag-vg">Vegetarian</span></h4></div><span class="mc-price">25 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Carrot Cake <span class="tag-vg">Vegetarian</span></h4></div><span class="mc-price">16 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Ice Cream <span class="tag-vg">Vegetarian</span></h4></div><span class="mc-price">15 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Seasonal Fruit Plate</h4></div><span class="mc-price">25 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_d1">Tiramisu</span> <span class="tag-vg">Vegetarian</span></h4></div><span class="mc-price">25 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_d2">Carrot Cake</span> <span class="tag-vg">Vegetarian</span></h4></div><span class="mc-price">16 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_d3">Ice Cream</span> <span class="tag-vg">Vegetarian</span></h4></div><span class="mc-price">15 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_d4">Seasonal Fruit Plate</span></h4></div><span class="mc-price">25 &#8382;</span></div>
     </div></div>
+    <!-- DRINKS -->
     <div class="menu-panel" id="tab-drinks"><div class="menu-grid">
-      <div class="menu-card"><div class="menu-card-body"><h4>Espresso</h4></div><span class="mc-price">6 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Cappuccino</h4></div><span class="mc-price">9 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Latte / Iced Latte</h4></div><span class="mc-price">10 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Masala Tea</h4><p class="mc-desc">Traditional spiced tea</p></div><span class="mc-price">15 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Livin Lemonade</h4><p class="mc-desc">Homemade special lemonade</p></div><span class="mc-price">18 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Fresh Juice</h4><p class="mc-desc">Orange, apple, carrot, grapefruit</p></div><span class="mc-price">14 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Mojito</h4></div><span class="mc-price">25 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Wine by Glass</h4><p class="mc-desc">Local Georgian wines</p></div><span class="mc-price">14 &#8382;</span></div>
-      <div class="menu-card"><div class="menu-card-body"><h4>Beer (Corona / IPA / Cider)</h4></div><span class="mc-price">15 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_dr1">Espresso</span></h4></div><span class="mc-price">6 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_dr2">Cappuccino</span></h4></div><span class="mc-price">9 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_dr3">Latte / Iced Latte</span></h4></div><span class="mc-price">10 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_dr4">Masala Tea</span></h4><p class="mc-desc" data-i18n="m_dr4d">Traditional spiced tea</p></div><span class="mc-price">15 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_dr5">Livin Lemonade</span></h4><p class="mc-desc" data-i18n="m_dr5d">Homemade special lemonade</p></div><span class="mc-price">18 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_dr6">Fresh Juice</span></h4><p class="mc-desc" data-i18n="m_dr6d">Orange, apple, carrot, grapefruit</p></div><span class="mc-price">14 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_dr7">Mojito</span></h4></div><span class="mc-price">25 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_dr8">Wine by Glass</span></h4><p class="mc-desc" data-i18n="m_dr8d">Local Georgian wines</p></div><span class="mc-price">14 &#8382;</span></div>
+      <div class="menu-card"><div class="menu-card-body"><h4><span data-i18n="m_dr9">Beer (Corona / IPA / Cider)</span></h4></div><span class="mc-price">15 &#8382;</span></div>
     </div></div>
     <div class="menu-cta reveal">
       <p data-i18n="menuCtaP">Full menu with all options available online.</p>
@@ -203,6 +248,7 @@
   </div>
 </section>
 
+<!-- CONTACT -->
 <section id="contact" style="background:var(--bg2)">
   <div class="container">
     <span class="section-label reveal" data-i18n="contactLabel">Get in Touch</span>
@@ -223,6 +269,7 @@
   </div>
 </section>
 
+<!-- FOOTER -->
 <footer class="footer">
   <div class="footer-top">
     <div class="footer-brand">
@@ -262,6 +309,12 @@
     <p style="font-size:.68rem;opacity:.4">Daily 12:00 &ndash; 23:00 &middot; Avlabari, Old Tbilisi</p>
   </div>
 </footer>
+
+<!-- WhatsApp Float Button -->
+<a href="https://wa.me/995598234108" target="_blank" class="wa-float" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.96 11.96 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.24 0-4.326-.723-6.016-1.95l-.42-.312-2.647.887.887-2.647-.312-.42A9.935 9.935 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
+</a>
+
 <script src="script.js"></script>
 </body>
 </html>

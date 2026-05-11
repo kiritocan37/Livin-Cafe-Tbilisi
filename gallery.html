@@ -1,4 +1,18 @@
-﻿<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Gallery — Livin Cafe Tbilisi</title><meta name="description" content="Photo gallery of Livin Cafe Tbilisi rooftop restaurant with panoramic views."><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></head><body><div class="top-bar">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Gallery — Livin Cafe Tbilisi</title>
+  <meta name="description" content="Photo gallery of Livin Cafe Tbilisi rooftop restaurant with panoramic views.">
+  <meta property="og:title" content="Gallery — Livin Cafe Tbilisi">
+  <meta property="og:description" content="Step inside our rooftop world above the city.">
+  <meta property="og:image" content="https://www.livincafetbilisi.com/photos/rooftop-view.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect rx='18' width='100' height='100' fill='%231a6b3c'/><text x='50' y='72' text-anchor='middle' font-size='58' font-family='serif' font-weight='bold' fill='%23f5c430'>L</text></svg>">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<div class="top-bar">
   <div class="top-bar-left">
     <span class="top-hours"><i class="far fa-clock"></i> <span data-i18n="topHours">Daily 12:00 – 23:00</span></span>
     <a href="tel:+995598234108" class="top-phone"><i class="fas fa-phone"></i> +995 598 234 108</a>
@@ -39,32 +53,44 @@
   <a href="hotel.html">Hotel</a><a href="index.html#contact">Contact</a>
   <a href="https://wa.me/995598234108" target="_blank">Reserve</a>
   <div class="mobile-lang"><button class="lang-btn" data-lang="en">EN</button><button class="lang-btn" data-lang="ru">RU</button><button class="lang-btn" data-lang="ka">ქა</button></div>
-</div><div class="page-hero">
+</div>
+
+<div class="page-hero">
   <div class="container">
     <span class="section-label" data-i18n="galleryLabel">Our Space</span>
     <h1 class="section-title" data-i18n="galleryTitle">Photo Gallery</h1>
     <p class="section-sub" data-i18n="gallerySub">Step inside our rooftop world above the city</p>
   </div>
 </div>
-<section style="padding:2rem;background:var(--bg)">
+
+<!-- MASONRY GALLERY — CSS columns, no grid skew issues -->
+<section style="padding:1.5rem;background:var(--bg)">
   <div class="gallery-grid">
-    <div class="gi wide"><img src="photos/rooftop-view.jpg" alt="Rooftop view" loading="lazy"></div>
+    <div class="gi"><img src="photos/rooftop-view.jpg" alt="Rooftop view" loading="lazy"></div>
     <div class="gi"><img src="photos/cathedral-view2.jpg" alt="Cathedral view" loading="lazy"></div>
     <div class="gi"><img src="photos/interior.jpg" alt="Interior" loading="lazy"></div>
     <div class="gi"><img src="photos/lounge.jpg" alt="Lounge" loading="lazy"></div>
-    <div class="gi wide tall"><img src="photos/gallery-1.jpg" alt="Gallery" loading="lazy"></div>
-    <div class="gi tall"><img src="photos/terrace.jpg" alt="Terrace" loading="lazy"></div>
-    <div class="gi tall"><img src="photos/cathedral-exterior.jpg" alt="Cathedral" loading="lazy"></div>
+    <div class="gi"><img src="photos/gallery-1.jpg" alt="Gallery" loading="lazy"></div>
+    <div class="gi"><img src="photos/terrace.jpg" alt="Terrace" loading="lazy"></div>
+    <div class="gi"><img src="photos/cathedral-exterior.jpg" alt="Cathedral" loading="lazy"></div>
     <div class="gi"><img src="photos/decor.jpg" alt="Decor" loading="lazy"></div>
     <div class="gi"><img src="photos/falafel-roll.jpg" alt="Food" loading="lazy"></div>
-    <div class="gi wide"><img src="photos/gallery-2.jpg" alt="Gallery" loading="lazy"></div>
-    <div class="gi wide"><img src="photos/gallery-3.jpg" alt="Gallery" loading="lazy"></div>
+    <div class="gi"><img src="photos/gallery-2.jpg" alt="Gallery" loading="lazy"></div>
+    <div class="gi"><img src="photos/gallery-3.jpg" alt="Gallery" loading="lazy"></div>
     <div class="gi"><img src="photos/gallery-4.jpg" alt="Gallery" loading="lazy"></div>
     <div class="gi"><img src="photos/gallery-5.jpg" alt="Gallery" loading="lazy"></div>
     <div class="gi"><img src="photos/gallery-6.jpg" alt="Gallery" loading="lazy"></div>
     <div class="gi"><img src="photos/cathedral-view3.jpg" alt="Cathedral" loading="lazy"></div>
   </div>
-</section><footer class="footer">
+</section>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close">&times;</button>
+  <img src="" alt="Gallery photo">
+</div>
+
+<footer class="footer">
   <div class="footer-top">
     <div class="footer-brand">
       <div class="footer-logo-text">LIVIN <em>CAFE</em> TBILISI</div>
@@ -103,4 +129,12 @@
     <p style="font-size:.68rem;opacity:.5">Daily 12:00 &ndash; 23:00</p>
   </div>
 </footer>
-<script src="script.js"></script></body></html>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/995598234108" target="_blank" class="wa-float" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.96 11.96 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.24 0-4.326-.723-6.016-1.95l-.42-.312-2.647.887.887-2.647-.312-.42A9.935 9.935 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
