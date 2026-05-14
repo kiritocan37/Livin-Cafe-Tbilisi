@@ -38,10 +38,8 @@ body{font-family:var(--body);background:var(--bg);color:var(--text);overflow-x:h
 /* ─── NAV ─── */
 .nav{position:fixed;top:48px;left:0;right:0;width:100%;z-index:100;padding:1rem 4%;display:flex;align-items:center;justify-content:space-between;background:rgba(255,253,248,.96);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid var(--border);transition:.4s;will-change:padding,box-shadow}
 .nav.scrolled{padding:.7rem 4%;box-shadow:var(--shadow)}
-/* Push page content below fixed top-bar + nav */
-body{padding-top:116px}
-/* Hero cancels padding to go full screen */
-.hero{margin-top:-116px;padding-top:116px}
+/* Non-hero pages need top padding to not go under fixed bars */
+.page-hero,.marquee{margin-top:116px}
 .nav-logo{text-decoration:none}
 .nav-brand{font-family:var(--accent);font-size:1.15rem;font-weight:700;color:var(--dark);letter-spacing:3px}
 .nav-brand em{color:var(--saffron);font-style:normal}
@@ -271,8 +269,7 @@ section:nth-of-type(even){background:var(--bg2)}
   .top-bar{display:none}
   .nav{top:0;padding:14px 20px}
   .nav.scrolled{padding:12px 20px}
-  body{padding-top:64px}
-  .hero{margin-top:-64px;padding-top:64px}
+  .page-hero,.marquee{margin-top:64px}
   .nav-cta{padding:8px 14px;font-size:.6rem;letter-spacing:.5px}
   .marquee-item{font-size:.85rem}
   .menu-grid{grid-template-columns:1fr}
