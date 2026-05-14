@@ -11,6 +11,109 @@ html{scroll-behavior:smooth}
 body{font-family:var(--body);background:var(--bg);color:var(--text);overflow-x:hidden;line-height:1.7}
 ::-webkit-scrollbar{width:4px}::-webkit-scrollbar-track{background:var(--bg2)}::-webkit-scrollbar-thumb{background:var(--saffron);border-radius:3px}
 
+/* Skip link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--saffron);
+  color: white;
+  padding: 8px 16px;
+  z-index: 1000;
+  transition: top 0.3s;
+  font-family: var(--accent);
+  font-size: 0.875rem;
+  border-radius: 0 0 8px 8px;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Language button feedback */
+.lang-btn {
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.lang-btn:active {
+  transform: scale(0.95);
+}
+
+.lang-btn::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(255,255,255,0.2);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+.lang-btn:active::after {
+  width: 100px;
+  height: 100px;
+}
+
+/* Make Reserve button more prominent */
+.nav-cta {
+  position: relative;
+  overflow: hidden;
+  font-weight: 700;
+  box-shadow: 0 4px 15px rgba(26, 18, 8, 0.2);
+}
+
+.nav-cta:hover {
+  box-shadow: 0 6px 20px rgba(26, 18, 8, 0.3);
+  transform: translateY(-2px);
+}
+
+.nav-cta:active {
+  transform: translateY(0);
+}
+
+/* Marquee accessibility controls */
+.marquee {
+  position: relative;
+}
+
+.marquee-controls {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+.marquee-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: var(--saffron);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.875rem;
+}
+
+.marquee-btn:hover {
+  background: rgba(255,255,255,0.2);
+  transform: scale(1.1);
+}
+
+.marquee-btn:active {
+  transform: scale(0.9);
+}
+
 /* ─── TOP BAR ─── */
 .top-bar{background:linear-gradient(90deg,#1a0e02 0%,#2a1a04 50%,#1a0e02 100%);border-bottom:2px solid rgba(232,160,32,.35);padding:.6rem 4%;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:200;height:48px}
 .top-bar-left{display:flex;align-items:center;gap:1.8rem}

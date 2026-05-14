@@ -17,6 +17,43 @@
   <meta name="twitter:title" content="Livin Cafe Tbilisi — Pure Vegetarian & Vegan Rooftop">
   <meta name="twitter:description" content="360° Sky Lounge · Bar · Terrace · Pure Vegetarian & Vegan Hub in Old Tbilisi">
   <meta name="twitter:image" content="https://www.livincafetbilisi.com/photos/cathedral-view.jpg">
+  <!-- Schema Markup for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Livin Cafe Tbilisi",
+    "image": [
+      "https://www.livincafetbilisi.com/photos/cathedral-view.jpg",
+      "https://www.livincafetbilisi.com/photos/interior.jpg"
+    ],
+    "servesCuisine": [
+      "Vegetarian",
+      "Vegan",
+      "Georgian",
+      "Mediterranean"
+    ],
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "44 Samreklo Street",
+      "addressLocality": "Avlabari, Old Tbilisi",
+      "addressCountry": "GE"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "41.698880",
+      "longitude": "44.814075"
+    },
+    "telephone": "+995 598 234 108",
+    "url": "https://www.livincafetbilisi.com",
+    "openingHours": [
+      "Mo,Tu,We,Th,Fr,Sa,Su 12:00-23:00"
+    ],
+    "menu": "https://menu.ps.me/PnsCt-fEtQE",
+    "hasMenu": "https://menu.ps.me/PnsCt-fEtQE"
+  }
+  </script>
   <!-- Favicon SVG -->
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="shortcut icon" href="favicon.ico">
@@ -24,6 +61,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
+  <!-- Skip to Content Link for Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <div id="main-content" class="content-wrapper">
 <div class="top-bar">
   <div class="top-bar-left">
     <span class="top-hours"><i class="far fa-clock"></i> <span data-i18n="topHours">Daily 12:00 – 23:00</span></span>
@@ -112,6 +152,10 @@
   <div class="marquee-item"><span class="dot"></span>Old Tbilisi</div>
   <div class="marquee-item"><span class="dot"></span>Samreklo 44</div>
 </div></div>
+<div class="marquee-controls" aria-label="Marquee controls">
+  <button class="marquee-btn pause" title="Pause"><i class="fas fa-pause"></i></button>
+  <button class="marquee-btn play" title="Play"><i class="fas fa-play"></i></button>
+</div>
 
 <!-- ABOUT -->
 <section id="about">
@@ -320,6 +364,7 @@
   </div>
 </footer>
 
-<script src="script.js"></script>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>

@@ -165,4 +165,26 @@ if(lbClose) lbClose.addEventListener('click',()=>{
 document.addEventListener('DOMContentLoaded',()=>{
   document.querySelectorAll('.lang-btn').forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.lang)));
   setLang(lang);
+
+  // Marquee controls
+  const marqueeTrack = document.querySelector('.marquee-track');
+  const pauseBtn = document.querySelector('.marquee-btn.pause');
+  const playBtn = document.querySelector('.marquee-btn.play');
+  let isPaused = false;
+
+  if (pauseBtn && playBtn && marqueeTrack) {
+    pauseBtn.addEventListener('click', () => {
+      marqueeTrack.style.animationPlayState = 'paused';
+      isPaused = true;
+      pauseBtn.style.display = 'none';
+      playBtn.style.display = 'flex';
+    });
+
+    playBtn.addEventListener('click', () => {
+      marqueeTrack.style.animationPlayState = 'running';
+      isPaused = false;
+      playBtn.style.display = 'none';
+      pauseBtn.style.display = 'flex';
+    });
+  }
 });
