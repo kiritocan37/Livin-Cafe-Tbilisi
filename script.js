@@ -85,7 +85,7 @@ let ticking=false;
 window.addEventListener('scroll',()=>{
   if(!ticking){
     requestAnimationFrame(()=>{
-      nav.classList.toggle('scrolled',scrollY>80);
+      nav.classList.toggle('scrolled',scrollY>10);
       ticking=false;
     });
     ticking=true;
