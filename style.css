@@ -331,9 +331,10 @@ section:nth-of-type(even){background:var(--bg2)}
 .footer-socials-row{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem}
 .footer-socials-row a{width:36px;height:36px;border-radius:10px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.06);display:flex;align-items:center;justify-content:center;text-decoration:none;color:rgba(255,255,255,.4);font-size:.9rem;transition:.3s}
 .footer-socials-row a:hover{color:var(--saffron-light);border-color:rgba(232,160,32,.3);background:rgba(232,160,32,.08)}
-.footer-bottom{padding:1.2rem 4%;display:flex;align-items:center;justify-content:space-between;max-width:1200px;margin:0 auto}
-.footer-bottom p{font-size:.72rem;color:rgba(255,255,255,.3);font-family:var(--accent)}
-.footer-bottom .heart{color:#c0392b}
+.footer-bottom{padding:2.8rem 4% 3rem;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:.6rem;max-width:1200px;margin:0 auto}
+.footer-bottom p:first-child{font-size:1rem;color:rgba(255,255,255,.5);font-family:var(--accent);letter-spacing:.5px;font-weight:400}
+.footer-bottom p+p{font-size:.75rem;color:rgba(255,255,255,.22);font-family:var(--accent);letter-spacing:1px}
+.footer-bottom .heart{color:#c0392b;font-size:1.1rem}
 
 /* ─── KLEOSO AGENCY STRIP ─── */
 .kleoso-strip{
