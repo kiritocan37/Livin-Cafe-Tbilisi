@@ -1,5 +1,5 @@
 const T={
-en:{navHome:"Home",navAbout:"About",navGallery:"Gallery",navMenu:"Menu",navHotel:"Our Hotel",navContact:"Contact",navCta:"Reserve a Table",topHours:"Daily 12:00 – 23:00",heroLabel:"Avlabari, Old Tbilisi · 360° Sky Lounge",heroDesc:"The one & only Pure Vegetarian & Vegan Hub, with the best 360° rooftop terrace view of Tbilisi City & Holy Trinity Cathedral.",heroBtn1:"View Menu",heroBtn2:"Our Story",scrollText:"Scroll",
+en:{navHome:"Home",navAbout:"About",navGallery:"Gallery",navMenu:"Menu",navHotel:"Our Hotel",navContact:"Contact",navCta:"Reserve a Table",topHours:"Daily 11:00 – 00:00",heroLabel:"Avlabari, Old Tbilisi · 360° Sky Lounge",heroDesc:"The One & Only Pure Vegetarian & Vegan Rooftop Cafe, with the best 360° rooftop terrace view of Tbilisi City & Holy Trinity Cathedral.",heroBtn1:"View Menu",heroBtn2:"Our Story",scrollText:"Scroll",
 mq1:"Pure Vegetarian & Vegan",mq2:"Rooftop Terrace",mq3:"Plant-Based Kitchen",mq4:"Bar & Club",mq5:"Fresh Daily",
 aboutLabel:"Our Story",aboutTitle:"About Livin Café",aboutSub:"Where mindful dining meets the best view in Tbilisi",aboutP:"Perched atop the Livin Hotel at 44 Samreklo Street in old Tbilisi's Avlabari district, we offer the best 360° rooftop view of the city and Holy Trinity Cathedral. Everything on our menu is purely vegetarian and vegan — made fresh every day from plant-based ingredients with no compromise on taste.",aboutQuote:'"We believe great food doesn\'t need to come at the cost of the planet."',
 pr1:"No eggs, meat, poultry, or seafood",pr2:"100% Halal food",pr3:"Made fresh daily",pr4:"Plant-based ingredients",
@@ -18,10 +18,10 @@ m_d1:"Tiramisu",m_d2:"Carrot Cake",m_d3:"Ice Cream",m_d4:"Seasonal Fruit Plate",
 m_dr1:"Espresso",m_dr2:"Cappuccino",m_dr3:"Latte / Iced Latte",m_dr4:"Masala Tea",m_dr4d:"Traditional spiced tea",m_dr5:"Livin Lemonade",m_dr5d:"Homemade special lemonade",m_dr6:"Fresh Juice",m_dr6d:"Orange, apple, carrot, grapefruit",m_dr7:"Mojito",m_dr8:"Wine by Glass",m_dr8d:"Local Georgian wines",m_dr9:"Beer (Corona / IPA / Cider)",
 menuCtaP:"Full menu with all options available online.",menuBtn:"View Full Menu Online",
 hotelLabel:"Our Property",hotelTitle:"Livin Hotel Tbilisi",hotelSub:"Georgia's first & only vegan & vegetarian boutique hotel",hb1:"First & Only Vegan Hotel",hb2:"12 Room Boutique Property",hb3:"Best City View",hb4:"Eco Comfort",hotelDesc:"An intimate 12-room boutique stay in the heart of Avlabari, Old Tbilisi. Georgia's first and only fully vegan & vegetarian hotel — where every detail reflects a commitment to sustainable, mindful living. Wake up to breathtaking views of Holy Trinity Cathedral right from your window.",hotelBtn:"Book Your Stay on Booking.com",
-contactLabel:"Get in Touch",contactTitle:"Visit Us",contactSub:"We would love to welcome you to our rooftop",cAddr:"Address",cAddrV:"Livin Hotel Rooftop, 44 Samreklo Street<br>Avlabari, Old Tbilisi, Georgia",cAddrN:"80m from Holy Trinity Cathedral",cHours:"Hours",cHoursV:"Daily: 12:00 – 23:00",cPhone:"Phone & WhatsApp",cEmail:"Email",cDir:"Direction",cDelivery:"Delivery",
-footerTagline:"The One & Only Pure Vegan Rooftop",footerText:'With <span class="heart">❤</span> from Tbilisi · © 2026 Livin Café Tbilisi',reviewBtn:'Leave a Google Review'},
+contactLabel:"Get in Touch",contactTitle:"Visit Us",contactSub:"We would love to welcome you to our rooftop",cAddr:"Address",cAddrV:"Livin Hotel Rooftop, 44 Samreklo Street<br>Avlabari, Old Tbilisi, Georgia",cAddrN:"80m from Holy Trinity Cathedral",cHours:"Hours",cHoursV:"Daily: 11:00 – 00:00",cPhone:"Phone & WhatsApp",cEmail:"Email",cDir:"Direction",cDelivery:"Delivery",
+footerTagline:"The One & Only Pure Vegetarian & Vegan Rooftop Cafe",footerText:'With <span class="heart">❤</span> from Tbilisi · © 2026 Livin & Jagannath Café Tbilisi',reviewBtn:'Leave a Google Review'},
 
-ru:{navHome:"Главная",navAbout:"О нас",navGallery:"Галерея",navMenu:"Меню",navHotel:"Наш Отель",navContact:"Контакты",navCta:"Забронировать стол",topHours:"Ежедневно 12:00 – 23:00",heroLabel:"Авлабари, Старый Тбилиси · 360° Sky Lounge",heroDesc:"Единственный чисто вегетарианский и веганский хаб с лучшим панорамным видом 360° на Тбилиси и Собор Святой Троицы.",heroBtn1:"Смотреть меню",heroBtn2:"Наша история",scrollText:"Листать",
+ru:{navHome:"Главная",navAbout:"О нас",navGallery:"Галерея",navMenu:"Меню",navHotel:"Наш Отель",navContact:"Контакты",navCta:"Забронировать стол",topHours:"Ежедневно 11:00 – 00:00",heroLabel:"Авлабари, Старый Тбилиси · 360° Sky Lounge",heroDesc:"Единственный чисто вегетарианский и веганский хаб с лучшим панорамным видом 360° на Тбилиси и Собор Святой Троицы.",heroBtn1:"Смотреть меню",heroBtn2:"Наша история",scrollText:"Листать",
 mq1:"Вегетарианское и Веганское",mq2:"Терраса на крыше",mq3:"Растительная кухня",mq4:"Бар и Клуб",mq5:"Свежее ежедневно",
 aboutLabel:"Наша история",aboutTitle:"О Livin Café",aboutSub:"Где осознанная кухня встречает лучший вид в Тбилиси",aboutP:"На крыше отеля Livin, ул. Самрекло 44, Авлабари. Предлагаем лучший вид 360° на Тбилиси и Собор Святой Троицы. Всё меню — чисто вегетарианское и веганское, приготовленное ежедневно из свежих растительных ингредиентов.",aboutQuote:'"Мы верим, что вкусная еда не должна стоить планете."',
 pr1:"Без яиц, мяса, птицы, морепродуктов",pr2:"100% Халяльная еда",pr3:"Свежее каждый день",pr4:"Растительные ингредиенты",
@@ -40,8 +40,8 @@ m_d1:"Тирамису",m_d2:"Морковный торт",m_d3:"Морожен�
 m_dr1:"Эспрессо",m_dr2:"Капучино",m_dr3:"Латте / Айс латте",m_dr4:"Масала чай",m_dr4d:"Традиционный чай со специями",m_dr5:"Livin лимонад",m_dr5d:"Фирменный домашний лимонад",m_dr6:"Свежий сок",m_dr6d:"Апельсин, яблоко, морковь, грейпфрут",m_dr7:"Мохито",m_dr8:"Вино (бокал)",m_dr8d:"Грузинские вина",m_dr9:"Пиво (Corona / IPA / Сидр)",
 menuCtaP:"Полное меню со всеми опциями доступно онлайн.",menuBtn:"Полное меню онлайн",
 hotelLabel:"Наша гостиница",hotelTitle:"Livin Hotel Тбилиси",hotelSub:"Первый и единственный веганский бутик-отель Грузии",hb1:"Первый и единственный веганский отель",hb2:"Бутик-отель на 12 номеров",hb3:"Лучший вид на город",hb4:"Эко-комфорт",hotelDesc:"Уютный бутик-отель на 12 номеров в сердце Авлабари. Первый и единственный полностью веганский и вегетарианский отель Грузии. Просыпайтесь с видом на Собор Святой Троицы прямо из вашего окна.",hotelBtn:"Забронировать на Booking.com",
-contactLabel:"Связаться с нами",contactTitle:"Посетите нас",contactSub:"Мы рады приветствовать вас на нашей террасе",cAddr:"Адрес",cAddrV:"Крыша отеля Livin, ул. Самрекло 44<br>Авлабари, Старый Тбилиси, Грузия",cAddrN:"80м от Собора Святой Троицы",cHours:"Время работы",cHoursV:"Ежедневно: 12:00 – 23:00",cPhone:"Телефон и WhatsApp",cEmail:"Эл. почта",cDelivery:"Доставка",
-footerTagline:"Единственный чисто веганский ресторан на крыше",footerText:'С <span class="heart">❤</span> из Тбилиси · © 2026 Livin Café Tbilisi',reviewBtn:'Оставить отзыв на Google'},
+contactLabel:"Связаться с нами",contactTitle:"Посетите нас",contactSub:"Мы рады приветствовать вас на нашей террасе",cAddr:"Адрес",cAddrV:"Крыша отеля Livin, ул. Самрекло 44<br>Авлабари, Старый Тбилиси, Грузия",cAddrN:"80м от Собора Святой Троицы",cHours:"Время работы",cHoursV:"Ежедневно: 11:00 – 00:00",cPhone:"Телефон и WhatsApp",cEmail:"Эл. почта",cDelivery:"Доставка",
+footerTagline:"Единственный чисто веганский ресторан на крыше",footerText:'С <span class="heart">❤</span> из Тбилиси · © 2026 Livin & Jagannath Café Tbilisi',reviewBtn:'Оставить отзыв на Google'},
 
 ka:{navHome:"მთავარი",navAbout:"ჩვენ შესახებ",navGallery:"გალერეა",navMenu:"მენიუ",navHotel:"ჩვენი სასტუმრო",navContact:"კონტაქტი",navCta:"მაგიდის დაჯავშნა",topHours:"ყოველდღე 12:00 – 23:00",heroLabel:"ავლაბარი, ძველი თბილისი · 360° Sky Lounge",heroDesc:"ერთადერთი სუფთა ვეგეტარიანული და ვეგანური ჰაბი თბილისის საუკეთესო 360° პანორამული ხედით სამების საკათედრო ტაძარზე.",heroBtn1:"მენიუს ნახვა",heroBtn2:"ჩვენი ისტორია",scrollText:"გადაახვიე",
 mq1:"სუფთა ვეგეტარიანული და ვეგანური",mq2:"სახურავის ტერასა",mq3:"მცენარეული სამზარეულო",mq4:"ბარი და კლუბი",mq5:"ყოველდღე ახალი",
@@ -166,25 +166,29 @@ document.addEventListener('DOMContentLoaded',()=>{
   document.querySelectorAll('.lang-btn').forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.lang)));
   setLang(lang);
 
-  // Marquee controls
-  const marqueeTrack = document.querySelector('.marquee-track');
-  const pauseBtn = document.querySelector('.marquee-btn.pause');
-  const playBtn = document.querySelector('.marquee-btn.play');
-  let isPaused = false;
-
-  if (pauseBtn && playBtn && marqueeTrack) {
-    pauseBtn.addEventListener('click', () => {
-      marqueeTrack.style.animationPlayState = 'paused';
-      isPaused = true;
-      pauseBtn.style.display = 'none';
-      playBtn.style.display = 'flex';
+  // Performance optimizations: Pause animations when off-screen
+  const perfObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.target.classList.contains('hero')) {
+        const vids = entry.target.querySelectorAll('video');
+        if (entry.isIntersecting) {
+          vids.forEach(v => v.play().catch(()=>{}));
+        } else {
+          vids.forEach(v => v.pause());
+        }
+      } else if (entry.target.classList.contains('marquee')) {
+        const track = entry.target.querySelector('.marquee-track');
+        if (track) {
+          track.style.animationPlayState = entry.isIntersecting ? 'running' : 'paused';
+        }
+      }
     });
+  }, { rootMargin: '100px 0px 100px 0px' });
 
-    playBtn.addEventListener('click', () => {
-      marqueeTrack.style.animationPlayState = 'running';
-      isPaused = false;
-      playBtn.style.display = 'none';
-      pauseBtn.style.display = 'flex';
-    });
-  }
+  const heroSec = document.querySelector('.hero');
+  const marqueeSec = document.querySelector('.marquee');
+  if (heroSec) perfObserver.observe(heroSec);
+  if (marqueeSec) perfObserver.observe(marqueeSec);
+
+  // Marquee controls removed
 });
