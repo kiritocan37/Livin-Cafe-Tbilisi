@@ -145,7 +145,7 @@ body{font-family:var(--body);background:var(--bg);color:var(--text);overflow-x:h
 .nav-logo{text-decoration:none;display:flex;align-items:center;gap:.6rem}
 .nav-logos-wrap{display:flex;align-items:center;gap:4px}
 .nav-logo-img{width:32px;height:32px;object-fit:contain;border-radius:50%;background:transparent}
-.nav-logo-om{width:30px;height:30px}
+.nav-logo-om{width:48px;height:48px}
 .nav-brand{font-family:var(--accent);font-size:1.15rem;font-weight:700;color:var(--dark);letter-spacing:3px}
 .nav-brand em{color:var(--saffron);font-style:normal}
 .nav-center{display:flex;gap:2rem;list-style:none}
